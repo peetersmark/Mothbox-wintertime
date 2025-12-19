@@ -1,0 +1,45 @@
+2025-12-05-16-35-02 iter1 exposure_us=240000000 mean=252.96161164003078 returncode=0
+2025-12-05-16-35-02 iter1 factor=0.050 new_exposure=12000000 [saturated]
+2025-12-05-16-47-14 iter2 exposure_us=12000000 mean=252.96161164003078 returncode=0
+2025-12-05-16-47-14 iter2 factor=0.050 new_exposure=600000 [saturated]
+2025-12-05-16-48-01 iter3 exposure_us=600000 mean=252.9613624735651 returncode=0
+2025-12-05-16-48-01 iter3 factor=0.050 new_exposure=30000 [saturated]
+2025-12-05-16-48-14 iter4 exposure_us=30000 mean=186.54193348132065 returncode=0
+2025-12-05-16-48-14 iter4 factor=0.815 new_exposure=24457
+2025-12-05-16-48-26 iter5 exposure_us=24457 mean=182.56932467899398 returncode=0
+2025-12-05-16-48-26 iter5 factor=0.855 new_exposure=20905
+2025-12-05-16-48-40 iter6 exposure_us=20905 mean=182.9248452523799 returncode=0
+2025-12-05-16-48-40 iter6 factor=0.851 new_exposure=17793
+2025-12-05-16-48-52 iter7 exposure_us=17793 mean=182.31988044120638 returncode=0
+2025-12-05-16-48-52 iter7 factor=0.857 new_exposure=15255
+2025-12-05-16-49-05 iter8 exposure_us=15255 mean=181.2015349968557 returncode=0
+2025-12-05-16-49-05 iter8 factor=0.869 new_exposure=13257
+2025-12-05-16-49-17 iter9 exposure_us=13257 mean=183.4057918582222 returncode=0
+2025-12-05-16-49-17 iter9 factor=0.846 new_exposure=11218
+2025-12-05-16-49-28 iter10 exposure_us=11218 mean=182.31519431776505 returncode=0
+2025-12-05-16-49-28 iter10 factor=0.857 new_exposure=9618
+2025-12-05-16-49-42 iter11 exposure_us=9618 mean=182.7882970150228 returncode=0
+2025-12-05-16-49-42 iter11 factor=0.853 new_exposure=8199
+2025-12-05-16-49-54 iter12 exposure_us=8199 mean=181.70468149234907 returncode=0
+2025-12-05-16-49-54 iter12 factor=0.864 new_exposure=7082
+2025-12-05-16-50-08 iter13 exposure_us=7082 mean=182.3365209179616 returncode=0
+2025-12-05-16-50-08 iter13 factor=0.857 new_exposure=6070
+2025-12-05-16-50-20 iter14 exposure_us=6070 mean=182.12412675726125 returncode=0
+2025-12-05-16-50-20 iter14 factor=0.859 new_exposure=5216
+2025-12-05-16-50-34 iter15 exposure_us=5216 mean=183.03559285579743 returncode=0
+2025-12-05-16-50-34 iter15 factor=0.850 new_exposure=4434
+2025-12-05-16-50-45 iter16 exposure_us=4434 mean=182.07317924575545 returncode=0
+2025-12-05-16-50-45 iter16 factor=0.860 new_exposure=3813
+2025-12-05-16-50-58 iter17 exposure_us=3813 mean=184.12009004562452 returncode=0
+2025-12-05-16-50-58 iter17 factor=0.839 new_exposure=3199
+2025-12-05-16-51-10 iter18 exposure_us=3199 mean=184.34867822025038 returncode=0
+2025-12-05-16-51-10 iter18 factor=0.837 new_exposure=2677
+2025-12-05-16-51-23 iter19 exposure_us=2677 mean=183.12180527823676 returncode=0
+2025-12-05-16-51-23 iter19 factor=0.849 new_exposure=2273
+2025-12-05-16-51-35 iter20 exposure_us=2273 mean=181.92595020544982 returncode=0
+2025-12-05-16-51-35 iter20 factor=0.861 new_exposure=1958
+2025-12-05-16-51-49 final exposure_us=1958 mean=175.8158632879148 returncode=0
+2025-12-05-16-52-40 iter1 exposure_us=1958 mean=172.7227027789294 returncode=0
+2025-12-05-16-52-54 final reuse exposure_us=1958 mean=172.7227027789294
+2025-12-05-16-53-31 iter1 exposure_us=1958 mean=170.28536007100303 returncode=0
+2025-12-05-16-53-45 final reuse exposure_us=1958 mean=170.28536007100303

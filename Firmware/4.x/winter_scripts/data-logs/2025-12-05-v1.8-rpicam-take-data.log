@@ -1,0 +1,48 @@
+Iteration 1: running shutter 240000000us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 240000000 --nopreview 1 -t 245000ms -o /media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-16-35-02_iter1.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure (saturated): 240000000 -> 12000000 (factor 0.050)
+Iteration 2: running shutter 12000000us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 12000000 --nopreview 1 -t 17000ms -o /media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-16-47-14_iter2.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure (saturated): 12000000 -> 600000 (factor 0.050)
+Iteration 3: running shutter 600000us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 600000 --nopreview 1 -t 5600ms -o /media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-16-48-01_iter3.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure (saturated): 600000 -> 30000 (factor 0.050)
+Iteration 4: running shutter 30000us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 30000 --nopreview 1 -t 5030ms -o /media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-16-48-14_iter4.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 30000 -> 24457 (factor 0.815)
+Iteration 5: running shutter 24457us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 24457 --nopreview 1 -t 5024ms -o /media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-16-48-26_iter5.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 24457 -> 20905 (factor 0.855)
+Iteration 6: running shutter 20905us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 20905 --nopreview 1 -t 5020ms -o /media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-16-48-40_iter6.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 20905 -> 17793 (factor 0.851)
+Iteration 7: running shutter 17793us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 17793 --nopreview 1 -t 5017ms -o /media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-16-48-52_iter7.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 17793 -> 15255 (factor 0.857)
+Iteration 8: running shutter 15255us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 15255 --nopreview 1 -t 5015ms -o /media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-16-49-05_iter8.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 15255 -> 13257 (factor 0.869)
+Iteration 9: running shutter 13257us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 13257 --nopreview 1 -t 5013ms -o /media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-16-49-17_iter9.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 13257 -> 11218 (factor 0.846)
+Iteration 10: running shutter 11218us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 11218 --nopreview 1 -t 5011ms -o /media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-16-49-28_iter10.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 11218 -> 9618 (factor 0.857)
+Iteration 11: running shutter 9618us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 9618 --nopreview 1 -t 5009ms -o /media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-16-49-42_iter11.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 9618 -> 8199 (factor 0.853)
+Iteration 12: running shutter 8199us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 8199 --nopreview 1 -t 5008ms -o /media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-16-49-54_iter12.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 8199 -> 7082 (factor 0.864)
+Iteration 13: running shutter 7082us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 7082 --nopreview 1 -t 5007ms -o /media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-16-50-08_iter13.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 7082 -> 6070 (factor 0.857)
+Iteration 14: running shutter 6070us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 6070 --nopreview 1 -t 5006ms -o /media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-16-50-20_iter14.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 6070 -> 5216 (factor 0.859)
+Iteration 15: running shutter 5216us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 5216 --nopreview 1 -t 5005ms -o /media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-16-50-34_iter15.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 5216 -> 4434 (factor 0.850)
+Iteration 16: running shutter 4434us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 4434 --nopreview 1 -t 5004ms -o /media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-16-50-45_iter16.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 4434 -> 3813 (factor 0.860)
+Iteration 17: running shutter 3813us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 3813 --nopreview 1 -t 5003ms -o /media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-16-50-58_iter17.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 3813 -> 3199 (factor 0.839)
+Iteration 18: running shutter 3199us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 3199 --nopreview 1 -t 5003ms -o /media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-16-51-10_iter18.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 3199 -> 2677 (factor 0.837)
+Iteration 19: running shutter 2677us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 2677 --nopreview 1 -t 5002ms -o /media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-16-51-23_iter19.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 2677 -> 2273 (factor 0.849)
+Iteration 20: running shutter 2273us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 2273 --nopreview 1 -t 5002ms -o /media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-16-51-35_iter20.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 2273 -> 1958 (factor 0.861)
+Final capture attempt 1: rpicam-still --camera 0 --width 9248 --height 6944 --shutter 1958 --nopreview 1 -t 5001ms -o /media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-16-51-49_ex1958us.jpg --quality 95 --metadata - --metadata-format json
+Capture complete. Final exposure (us): 1958
+Iteration 1: running shutter 1958us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 1958 --nopreview 1 -t 5001ms -o /media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-16-52-40_iter1.jpg --quality 95 --metadata - --metadata-format json
+Mean brightness 172.7227027789294 within tolerance 5.0% of target 170.0 -> reusing image
+Capture complete. Final exposure (us): 1958
+Iteration 1: running shutter 1958us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 1958 --nopreview 1 -t 5001ms -o /media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-16-53-31_iter1.jpg --quality 95 --metadata - --metadata-format json
+Mean brightness 170.28536007100303 within tolerance 5.0% of target 170.0 -> reusing image
+Capture complete. Final exposure (us): 1958

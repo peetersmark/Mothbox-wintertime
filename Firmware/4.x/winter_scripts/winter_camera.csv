@@ -1,0 +1,21 @@
+SETTING,VALUE,DETAILS
+ExposureTime,1000,Last used exposure time in microseconds
+AnalogueGain,,Optional fixed analogue gain (e.g. 1.0)
+Gain,,Optional fixed overall gain
+AwbGains,,Optional fixed awb gains as R,G (e.g. 1.0,1.0)
+Width,9248,Default capture width (px)
+Height,6944,Default capture height (px)
+TargetMean,170,Target mean brightness (0-255)
+LoopIterations,5,Number of iterations for exposure loop
+RetryCount,2,Number of rpicam-still retries on failure
+MinExposure,100,Minimum exposure in microseconds
+MaxExposure,240000000,Maximum exposure in microseconds
+TolerancePct,5,Stop loop when within this percent of target mean
+MaxChangeFactor,20,Maximum multiplicative change per iteration
+GammaExponent,3.0,Exponent for gamma-corrected exposure adjustment
+GammaTransitionError,0.10,Normalized error threshold where gamma tapers from max to 1.0 (fallback/default)
+GammaTransitionError_Dark,0.08,GammaTransitionError when brightness below (TargetMean - GammaDarkThreshold)
+GammaTransitionError_Normal,0.10,GammaTransitionError when brightness near target
+GammaTransitionError_Bright,0.05,GammaTransitionError when brightness above (TargetMean + GammaBrightThreshold)
+GammaDarkThreshold,20,Brightness units below TargetMean to trigger dark mode
+GammaBrightThreshold,10,Brightness units above TargetMean to trigger bright mode

@@ -1,0 +1,1175 @@
+2025-12-05-14-43-28,iter1,/media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-14-43-28_iter1.jpg,240000000,,,,0,"[0:04:23.637882250] [2572] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.2.0+46-075b54d5
+[0:04:23.647140953] [2577] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:662 [0mlibpisp version v1.0.4 6e3a53d137f4 14-02-2024 (14:00:12)
+[0:04:23.676064453] [2577] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1121 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 to CFE device /dev/media0 and ISP device /dev/media1 using PiSP variant BCM2712_C0
+Mode selection for 4624:3472:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 11359.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 9096
+    SBGGR10_CSI2P,3840x2160/0 - Score: 5359.24
+    SBGGR10_CSI2P,4624x3472/0 - Score: 1000
+    SBGGR10_CSI2P,8000x6000/0 - Score: 2476.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 3024
+Stream configuration adjusted
+[0:04:23.676683676] [2572] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 4624x3472-YUV420 (1) 4624x3472-RGGB16_PISP_COMP1
+[0:04:23.676766009] [2577] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 4624x3472-SRGGB10_1X10 - Selected CFE format: 4624x3472-PC1R
+Mode selection for 9248:6944:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 27551.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 25288
+    SBGGR10_CSI2P,3840x2160/0 - Score: 21551.2
+    SBGGR10_CSI2P,4624x3472/0 - Score: 17192
+    SBGGR10_CSI2P,8000x6000/0 - Score: 5384.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 1000
+Stream configuration adjusted
+[0:08:30.786532193] [2572] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 9248x6944-YUV420 (1) 9248x6944-RGGB16_PISP_COMP1
+[0:08:30.797367518] [2577] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 9248x6944-SRGGB10_1X10 - Selected CFE format: 9248x6944-PC1R
+Still capture image received
+","{""ColourCorrectionMatrix"": [1.698051, -0.277405, -0.420636, -0.236144, 1.877661, -0.641517, -0.079827, -0.617371, 1.697208], ""FocusFoM"": 0, ""ColourTemperature"": 6492, ""SensorTimestamp"": 992723111000, ""ScalerCrop"": ""(0, 0)/9280x6976"", ""LensPosition"": 0.5, ""AfPauseState"": 0, ""FrameDuration"": 177257748, ""Lux"": 1.569999, ""ExposureTime"": 177256095, ""AnalogueGain"": 1.0, ""SensorBlackLevels"": [4096, 4096, 4096, 4096], ""AeLocked"": false, ""DigitalGain"": 1.0, ""AfState"": 2, ""ColourGains"": [2.416315, 1.350292]}",177256095,1.0,1.0,,252.96161164003078,
+2025-12-05-14-55-40,iter2,/media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-14-55-40_iter2.jpg,100110287,,,,0,"[0:16:34.772683383] [3367] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.2.0+46-075b54d5
+[0:16:34.780723889] [3371] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:662 [0mlibpisp version v1.0.4 6e3a53d137f4 14-02-2024 (14:00:12)
+[0:16:34.797268866] [3371] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1121 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 to CFE device /dev/media0 and ISP device /dev/media1 using PiSP variant BCM2712_C0
+Mode selection for 4624:3472:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 11359.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 9096
+    SBGGR10_CSI2P,3840x2160/0 - Score: 5359.24
+    SBGGR10_CSI2P,4624x3472/0 - Score: 1000
+    SBGGR10_CSI2P,8000x6000/0 - Score: 2476.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 3024
+Stream configuration adjusted
+[0:16:34.797863981] [3367] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 4624x3472-YUV420 (1) 4624x3472-RGGB16_PISP_COMP1
+[0:16:34.797941481] [3371] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 4624x3472-SRGGB10_1X10 - Selected CFE format: 4624x3472-PC1R
+Mode selection for 9248:6944:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 27551.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 25288
+    SBGGR10_CSI2P,3840x2160/0 - Score: 21551.2
+    SBGGR10_CSI2P,4624x3472/0 - Score: 17192
+    SBGGR10_CSI2P,8000x6000/0 - Score: 5384.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 1000
+Stream configuration adjusted
+[0:18:21.961646995] [3367] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 9248x6944-YUV420 (1) 9248x6944-RGGB16_PISP_COMP1
+[0:18:21.972600955] [3371] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 9248x6944-SRGGB10_1X10 - Selected CFE format: 9248x6944-PC1R
+Still capture image received
+","{""ColourCorrectionMatrix"": [1.698051, -0.277405, -0.420636, -0.236144, 1.877661, -0.641517, -0.079827, -0.617371, 1.697208], ""FocusFoM"": 0, ""ColourTemperature"": 6492, ""SensorTimestamp"": 1204001988000, ""ScalerCrop"": ""(0, 0)/9280x6976"", ""LensPosition"": 0.5, ""AfPauseState"": 0, ""FrameDuration"": 73939764, ""Lux"": 3.763849, ""ExposureTime"": 73938110, ""AnalogueGain"": 1.0, ""SensorBlackLevels"": [4096, 4096, 4096, 4096], ""AeLocked"": false, ""DigitalGain"": 1.0, ""AfState"": 2, ""ColourGains"": [2.416315, 1.350292]}",73938110,1.0,1.0,,252.96161164003078,
+2025-12-05-14-59-11,iter3,/media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-14-59-11_iter3.jpg,41758623,,,,0,"[0:20:05.842140617] [3637] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.2.0+46-075b54d5
+[0:20:05.850143913] [3641] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:662 [0mlibpisp version v1.0.4 6e3a53d137f4 14-02-2024 (14:00:12)
+[0:20:05.866873788] [3641] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1121 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 to CFE device /dev/media0 and ISP device /dev/media1 using PiSP variant BCM2712_C0
+Mode selection for 4624:3472:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 11359.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 9096
+    SBGGR10_CSI2P,3840x2160/0 - Score: 5359.24
+    SBGGR10_CSI2P,4624x3472/0 - Score: 1000
+    SBGGR10_CSI2P,8000x6000/0 - Score: 2476.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 3024
+Stream configuration adjusted
+[0:20:05.867494809] [3637] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 4624x3472-YUV420 (1) 4624x3472-RGGB16_PISP_COMP1
+[0:20:05.867576069] [3641] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 4624x3472-SRGGB10_1X10 - Selected CFE format: 4624x3472-PC1R
+Mode selection for 9248:6944:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 27551.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 25288
+    SBGGR10_CSI2P,3840x2160/0 - Score: 21551.2
+    SBGGR10_CSI2P,4624x3472/0 - Score: 17192
+    SBGGR10_CSI2P,8000x6000/0 - Score: 5384.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 1000
+Stream configuration adjusted
+[0:20:54.790153202] [3637] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 9248x6944-YUV420 (1) 9248x6944-RGGB16_PISP_COMP1
+[0:20:54.801021815] [3641] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 9248x6944-SRGGB10_1X10 - Selected CFE format: 9248x6944-PC1R
+Still capture image received
+","{""ColourCorrectionMatrix"": [1.698051, -0.277405, -0.420636, -0.236144, 1.877661, -0.641517, -0.079827, -0.617371, 1.697208], ""FocusFoM"": 0, ""ColourTemperature"": 6492, ""SensorTimestamp"": 1340237103000, ""ScalerCrop"": ""(0, 0)/9280x6976"", ""LensPosition"": 0.5, ""AfPauseState"": 0, ""FrameDuration"": 30843192, ""Lux"": 9.02328, ""ExposureTime"": 30841538, ""AnalogueGain"": 1.0, ""SensorBlackLevels"": [4096, 4096, 4096, 4096], ""AeLocked"": false, ""DigitalGain"": 1.0, ""AfState"": 2, ""ColourGains"": [2.416315, 1.350292]}",30841538,1.0,1.0,,252.96161164003078,
+2025-12-05-15-01-27,iter4,/media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-15-01-27_iter4.jpg,17418616,,,,0,"[0:22:22.068584484] [3781] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.2.0+46-075b54d5
+[0:22:22.076695024] [3785] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:662 [0mlibpisp version v1.0.4 6e3a53d137f4 14-02-2024 (14:00:12)
+[0:22:22.093510579] [3785] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1121 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 to CFE device /dev/media0 and ISP device /dev/media1 using PiSP variant BCM2712_C0
+Mode selection for 4624:3472:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 11359.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 9096
+    SBGGR10_CSI2P,3840x2160/0 - Score: 5359.24
+    SBGGR10_CSI2P,4624x3472/0 - Score: 1000
+    SBGGR10_CSI2P,8000x6000/0 - Score: 2476.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 3024
+Stream configuration adjusted
+[0:22:22.094129592] [3781] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 4624x3472-YUV420 (1) 4624x3472-RGGB16_PISP_COMP1
+[0:22:22.094201888] [3785] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 4624x3472-SRGGB10_1X10 - Selected CFE format: 4624x3472-PC1R
+Mode selection for 9248:6944:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 27551.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 25288
+    SBGGR10_CSI2P,3840x2160/0 - Score: 21551.2
+    SBGGR10_CSI2P,4624x3472/0 - Score: 17192
+    SBGGR10_CSI2P,8000x6000/0 - Score: 5384.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 1000
+Stream configuration adjusted
+[0:22:46.595402082] [3781] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 9248x6944-YUV420 (1) 9248x6944-RGGB16_PISP_COMP1
+[0:22:46.606409403] [3785] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 9248x6944-SRGGB10_1X10 - Selected CFE format: 9248x6944-PC1R
+Still capture image received
+","{""ColourCorrectionMatrix"": [1.698051, -0.277405, -0.420636, -0.236144, 1.877661, -0.641517, -0.079827, -0.617371, 1.697208], ""FocusFoM"": 0, ""ColourTemperature"": 6492, ""SensorTimestamp"": 1403363329000, ""ScalerCrop"": ""(0, 0)/9280x6976"", ""LensPosition"": 0.5, ""AfPauseState"": 0, ""FrameDuration"": 12866459, ""Lux"": 21.632029, ""ExposureTime"": 12864805, ""AnalogueGain"": 1.0, ""SensorBlackLevels"": [4096, 4096, 4096, 4096], ""AeLocked"": false, ""DigitalGain"": 1.0, ""AfState"": 2, ""ColourGains"": [2.416315, 1.350292]}",12864805,1.0,1.0,,252.96161164003078,
+2025-12-05-15-02-31,iter5,/media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-15-02-31_iter5.jpg,7265761,,,,0,"[0:23:25.630572152] [3921] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.2.0+46-075b54d5
+[0:23:25.638781192] [3925] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:662 [0mlibpisp version v1.0.4 6e3a53d137f4 14-02-2024 (14:00:12)
+[0:23:25.655583086] [3925] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1121 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 to CFE device /dev/media0 and ISP device /dev/media1 using PiSP variant BCM2712_C0
+Mode selection for 4624:3472:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 11359.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 9096
+    SBGGR10_CSI2P,3840x2160/0 - Score: 5359.24
+    SBGGR10_CSI2P,4624x3472/0 - Score: 1000
+    SBGGR10_CSI2P,8000x6000/0 - Score: 2476.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 3024
+Stream configuration adjusted
+[0:23:25.656203489] [3921] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 4624x3472-YUV420 (1) 4624x3472-RGGB16_PISP_COMP1
+[0:23:25.656280841] [3925] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 4624x3472-SRGGB10_1X10 - Selected CFE format: 4624x3472-PC1R
+Mode selection for 9248:6944:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 27551.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 25288
+    SBGGR10_CSI2P,3840x2160/0 - Score: 21551.2
+    SBGGR10_CSI2P,4624x3472/0 - Score: 17192
+    SBGGR10_CSI2P,8000x6000/0 - Score: 5384.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 1000
+Stream configuration adjusted
+[0:23:39.983259995] [3921] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 9248x6944-YUV420 (1) 9248x6944-RGGB16_PISP_COMP1
+[0:23:39.994163208] [3925] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 9248x6944-SRGGB10_1X10 - Selected CFE format: 9248x6944-PC1R
+Still capture image received
+","{""ColourCorrectionMatrix"": [1.698051, -0.277405, -0.420636, -0.236144, 1.877661, -0.641517, -0.079827, -0.617371, 1.697208], ""FocusFoM"": 0, ""ColourTemperature"": 6492, ""SensorTimestamp"": 1436448819000, ""ScalerCrop"": ""(0, 0)/9280x6976"", ""LensPosition"": 0.5, ""AfPauseState"": 0, ""FrameDuration"": 5367898, ""Lux"": 51.859703, ""ExposureTime"": 5366244, ""AnalogueGain"": 1.0, ""SensorBlackLevels"": [4096, 4096, 4096, 4096], ""AeLocked"": false, ""DigitalGain"": 1.0, ""AfState"": 2, ""ColourGains"": [2.416315, 1.350292]}",5366244,1.0,1.0,,252.96161164003078,
+2025-12-05-15-03-03,iter6,/media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-15-03-03_iter6.jpg,3030739,,,,0,"[0:23:58.449574017] [3935] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.2.0+46-075b54d5
+[0:23:58.457753030] [3939] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:662 [0mlibpisp version v1.0.4 6e3a53d137f4 14-02-2024 (14:00:12)
+[0:23:58.474744866] [3939] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1121 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 to CFE device /dev/media0 and ISP device /dev/media1 using PiSP variant BCM2712_C0
+Mode selection for 4624:3472:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 11359.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 9096
+    SBGGR10_CSI2P,3840x2160/0 - Score: 5359.24
+    SBGGR10_CSI2P,4624x3472/0 - Score: 1000
+    SBGGR10_CSI2P,8000x6000/0 - Score: 2476.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 3024
+Stream configuration adjusted
+[0:23:58.475348918] [3935] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 4624x3472-YUV420 (1) 4624x3472-RGGB16_PISP_COMP1
+[0:23:58.475426307] [3939] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 4624x3472-SRGGB10_1X10 - Selected CFE format: 4624x3472-PC1R
+Mode selection for 9248:6944:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 27551.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 25288
+    SBGGR10_CSI2P,3840x2160/0 - Score: 21551.2
+    SBGGR10_CSI2P,4624x3472/0 - Score: 17192
+    SBGGR10_CSI2P,8000x6000/0 - Score: 5384.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 1000
+Stream configuration adjusted
+[0:24:08.625340217] [3935] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 9248x6944-YUV420 (1) 9248x6944-RGGB16_PISP_COMP1
+[0:24:08.636311885] [3939] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 9248x6944-SRGGB10_1X10 - Selected CFE format: 9248x6944-PC1R
+Still capture image received
+","{""ColourCorrectionMatrix"": [1.698051, -0.277405, -0.420636, -0.236144, 1.877661, -0.641517, -0.079827, -0.617371, 1.697208], ""FocusFoM"": 0, ""ColourTemperature"": 6492, ""SensorTimestamp"": 1456617828000, ""ScalerCrop"": ""(0, 0)/9280x6976"", ""LensPosition"": 9.0, ""AfPauseState"": 0, ""FrameDuration"": 2240017, ""Lux"": 124.328224, ""ExposureTime"": 2238364, ""AnalogueGain"": 1.0, ""SensorBlackLevels"": [4096, 4096, 4096, 4096], ""AeLocked"": false, ""DigitalGain"": 1.0, ""AfState"": 1, ""ColourGains"": [2.416315, 1.350292]}",2238364,1.0,1.0,,252.96161164003078,
+2025-12-05-15-03-23,iter7,/media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-15-03-23_iter7.jpg,1264201,,,,0,"[0:24:18.448929784] [3951] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.2.0+46-075b54d5
+[0:24:18.457067653] [3955] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:662 [0mlibpisp version v1.0.4 6e3a53d137f4 14-02-2024 (14:00:12)
+[0:24:18.474143480] [3955] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1121 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 to CFE device /dev/media0 and ISP device /dev/media1 using PiSP variant BCM2712_C0
+Mode selection for 4624:3472:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 11359.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 9096
+    SBGGR10_CSI2P,3840x2160/0 - Score: 5359.24
+    SBGGR10_CSI2P,4624x3472/0 - Score: 1000
+    SBGGR10_CSI2P,8000x6000/0 - Score: 2476.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 3024
+Stream configuration adjusted
+[0:24:18.474755070] [3951] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 4624x3472-YUV420 (1) 4624x3472-RGGB16_PISP_COMP1
+[0:24:18.474832644] [3955] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 4624x3472-SRGGB10_1X10 - Selected CFE format: 4624x3472-PC1R
+Mode selection for 9248:6944:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 27551.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 25288
+    SBGGR10_CSI2P,3840x2160/0 - Score: 21551.2
+    SBGGR10_CSI2P,4624x3472/0 - Score: 17192
+    SBGGR10_CSI2P,8000x6000/0 - Score: 5384.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 1000
+Stream configuration adjusted
+[0:24:26.791935818] [3951] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 9248x6944-YUV420 (1) 9248x6944-RGGB16_PISP_COMP1
+[0:24:26.802899028] [3955] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 9248x6944-SRGGB10_1X10 - Selected CFE format: 9248x6944-PC1R
+Still capture image received
+","{""ColourCorrectionMatrix"": [1.698051, -0.277405, -0.420636, -0.236144, 1.877661, -0.641517, -0.079827, -0.617371, 1.697208], ""FocusFoM"": 0, ""ColourTemperature"": 6492, ""SensorTimestamp"": 1471249091000, ""ScalerCrop"": ""(0, 0)/9280x6976"", ""LensPosition"": 6.0, ""AfPauseState"": 0, ""FrameDuration"": 935304, ""Lux"": 298.06842, ""ExposureTime"": 933650, ""AnalogueGain"": 1.0, ""SensorBlackLevels"": [4096, 4096, 4096, 4096], ""AeLocked"": false, ""DigitalGain"": 1.0, ""AfState"": 1, ""ColourGains"": [2.416315, 1.350292]}",933650,1.0,1.0,,252.96161164003078,
+2025-12-05-15-03-38,iter8,/media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-15-03-38_iter8.jpg,527331,,,,0,"[0:24:33.039441406] [3966] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.2.0+46-075b54d5
+[0:24:33.047566890] [3970] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:662 [0mlibpisp version v1.0.4 6e3a53d137f4 14-02-2024 (14:00:12)
+[0:24:33.064447150] [3970] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1121 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 to CFE device /dev/media0 and ISP device /dev/media1 using PiSP variant BCM2712_C0
+Mode selection for 4624:3472:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 11359.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 9096
+    SBGGR10_CSI2P,3840x2160/0 - Score: 5359.24
+    SBGGR10_CSI2P,4624x3472/0 - Score: 1000
+    SBGGR10_CSI2P,8000x6000/0 - Score: 2476.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 3024
+Stream configuration adjusted
+[0:24:33.065106036] [3966] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 4624x3472-YUV420 (1) 4624x3472-RGGB16_PISP_COMP1
+[0:24:33.065198406] [3970] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 4624x3472-SRGGB10_1X10 - Selected CFE format: 4624x3472-PC1R
+Mode selection for 9248:6944:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 27551.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 25288
+    SBGGR10_CSI2P,3840x2160/0 - Score: 21551.2
+    SBGGR10_CSI2P,4624x3472/0 - Score: 17192
+    SBGGR10_CSI2P,8000x6000/0 - Score: 5384.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 1000
+Stream configuration adjusted
+[0:24:40.738919797] [3966] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 9248x6944-YUV420 (1) 9248x6944-RGGB16_PISP_COMP1
+[0:24:40.749832789] [3970] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 9248x6944-SRGGB10_1X10 - Selected CFE format: 9248x6944-PC1R
+Still capture image received
+","{""ColourCorrectionMatrix"": [1.698051, -0.277405, -0.420636, -0.236144, 1.877661, -0.641517, -0.079827, -0.617371, 1.697208], ""FocusFoM"": 0, ""ColourTemperature"": 6492, ""SensorTimestamp"": 1483724314000, ""ScalerCrop"": ""(0, 0)/9280x6976"", ""LensPosition"": 5.0, ""AfPauseState"": 0, ""FrameDuration"": 391114, ""Lux"": 714.557373, ""ExposureTime"": 389460, ""AnalogueGain"": 1.0, ""SensorBlackLevels"": [4096, 4096, 4096, 4096], ""AeLocked"": false, ""DigitalGain"": 1.0, ""AfState"": 1, ""ColourGains"": [2.416315, 1.350292]}",389460,1.0,1.0,,252.96161164003078,
+2025-12-05-15-03-50,iter9,/media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-15-03-50_iter9.jpg,219964,,,,0,"[0:24:45.484891778] [3980] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.2.0+46-075b54d5
+[0:24:45.492932246] [3984] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:662 [0mlibpisp version v1.0.4 6e3a53d137f4 14-02-2024 (14:00:12)
+[0:24:45.509771290] [3984] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1121 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 to CFE device /dev/media0 and ISP device /dev/media1 using PiSP variant BCM2712_C0
+Mode selection for 4624:3472:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 11359.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 9096
+    SBGGR10_CSI2P,3840x2160/0 - Score: 5359.24
+    SBGGR10_CSI2P,4624x3472/0 - Score: 1000
+    SBGGR10_CSI2P,8000x6000/0 - Score: 2476.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 3024
+Stream configuration adjusted
+[0:24:45.510481657] [3980] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 4624x3472-YUV420 (1) 4624x3472-RGGB16_PISP_COMP1
+[0:24:45.510575472] [3984] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 4624x3472-SRGGB10_1X10 - Selected CFE format: 4624x3472-PC1R
+Mode selection for 9248:6944:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 27551.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 25288
+    SBGGR10_CSI2P,3840x2160/0 - Score: 21551.2
+    SBGGR10_CSI2P,4624x3472/0 - Score: 17192
+    SBGGR10_CSI2P,8000x6000/0 - Score: 5384.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 1000
+Stream configuration adjusted
+[0:24:52.807211760] [3980] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 9248x6944-YUV420 (1) 9248x6944-RGGB16_PISP_COMP1
+[0:24:52.818112014] [3984] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 9248x6944-SRGGB10_1X10 - Selected CFE format: 9248x6944-PC1R
+Still capture image received
+","{""ColourCorrectionMatrix"": [1.698051, -0.277405, -0.420636, -0.236144, 1.877661, -0.641517, -0.079827, -0.617371, 1.697208], ""FocusFoM"": 0, ""ColourTemperature"": 6492, ""SensorTimestamp"": 1495444680000, ""ScalerCrop"": ""(0, 0)/9280x6976"", ""LensPosition"": 5.0, ""AfPauseState"": 0, ""FrameDuration"": 365480, ""Lux"": 1713.300781, ""ExposureTime"": 162430, ""AnalogueGain"": 1.0, ""SensorBlackLevels"": [4096, 4096, 4096, 4096], ""AeLocked"": false, ""DigitalGain"": 1.0, ""AfState"": 1, ""ColourGains"": [2.416315, 1.350292]}",162430,1.0,1.0,,252.96161164003078,
+2025-12-05-15-04-02,iter10,/media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-15-04-02_iter10.jpg,91753,,,,0,"[0:24:57.197901104] [3994] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.2.0+46-075b54d5
+[0:24:57.205978111] [3998] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:662 [0mlibpisp version v1.0.4 6e3a53d137f4 14-02-2024 (14:00:12)
+[0:24:57.224355451] [3998] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1121 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 to CFE device /dev/media0 and ISP device /dev/media1 using PiSP variant BCM2712_C0
+Mode selection for 4624:3472:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 11359.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 9096
+    SBGGR10_CSI2P,3840x2160/0 - Score: 5359.24
+    SBGGR10_CSI2P,4624x3472/0 - Score: 1000
+    SBGGR10_CSI2P,8000x6000/0 - Score: 2476.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 3024
+Stream configuration adjusted
+[0:24:57.224986726] [3994] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 4624x3472-YUV420 (1) 4624x3472-RGGB16_PISP_COMP1
+[0:24:57.228144974] [3998] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 4624x3472-SRGGB10_1X10 - Selected CFE format: 4624x3472-PC1R
+Mode selection for 9248:6944:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 27551.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 25288
+    SBGGR10_CSI2P,3840x2160/0 - Score: 21551.2
+    SBGGR10_CSI2P,4624x3472/0 - Score: 17192
+    SBGGR10_CSI2P,8000x6000/0 - Score: 5384.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 1000
+Stream configuration adjusted
+[0:25:04.330820740] [3994] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 9248x6944-YUV420 (1) 9248x6944-RGGB16_PISP_COMP1
+[0:25:04.341816831] [3998] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 9248x6944-SRGGB10_1X10 - Selected CFE format: 9248x6944-PC1R
+Still capture image received
+","{""ColourCorrectionMatrix"": [1.698051, -0.277405, -0.420636, -0.236144, 1.877661, -0.641517, -0.079827, -0.617371, 1.697208], ""FocusFoM"": 0, ""ColourTemperature"": 6492, ""SensorTimestamp"": 1506846349000, ""ScalerCrop"": ""(0, 0)/9280x6976"", ""LensPosition"": 4.0, ""AfPauseState"": 0, ""FrameDuration"": 365480, ""Lux"": 4107.478516, ""ExposureTime"": 67752, ""AnalogueGain"": 1.0, ""SensorBlackLevels"": [4096, 4096, 4096, 4096], ""AeLocked"": false, ""DigitalGain"": 1.18356, ""AfState"": 1, ""ColourGains"": [2.416315, 1.350292]}",67752,1.0,1.18356,,253.0,
+2025-12-05-15-04-14,iter11,/media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-15-04-14_iter11.jpg,38260,,,,0,"[0:25:08.600848165] [4008] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.2.0+46-075b54d5
+[0:25:08.608987656] [4012] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:662 [0mlibpisp version v1.0.4 6e3a53d137f4 14-02-2024 (14:00:12)
+[0:25:08.625896302] [4012] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1121 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 to CFE device /dev/media0 and ISP device /dev/media1 using PiSP variant BCM2712_C0
+Mode selection for 4624:3472:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 11359.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 9096
+    SBGGR10_CSI2P,3840x2160/0 - Score: 5359.24
+    SBGGR10_CSI2P,4624x3472/0 - Score: 1000
+    SBGGR10_CSI2P,8000x6000/0 - Score: 2476.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 3024
+Stream configuration adjusted
+[0:25:08.626512355] [4008] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 4624x3472-YUV420 (1) 4624x3472-RGGB16_PISP_COMP1
+[0:25:08.629711844] [4012] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 4624x3472-SRGGB10_1X10 - Selected CFE format: 4624x3472-PC1R
+Mode selection for 9248:6944:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 27551.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 25288
+    SBGGR10_CSI2P,3840x2160/0 - Score: 21551.2
+    SBGGR10_CSI2P,4624x3472/0 - Score: 17192
+    SBGGR10_CSI2P,8000x6000/0 - Score: 5384.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 1000
+Stream configuration adjusted
+[0:25:15.679056719] [4008] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 9248x6944-YUV420 (1) 9248x6944-RGGB16_PISP_COMP1
+[0:25:15.690162516] [4012] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 9248x6944-SRGGB10_1X10 - Selected CFE format: 9248x6944-PC1R
+Still capture image received
+","{""ColourCorrectionMatrix"": [1.698051, -0.277405, -0.420636, -0.236144, 1.877661, -0.641517, -0.079827, -0.617371, 1.697208], ""FocusFoM"": 14, ""ColourTemperature"": 6492, ""SensorTimestamp"": 1518139836000, ""ScalerCrop"": ""(0, 0)/9280x6976"", ""LensPosition"": 4.0, ""AfPauseState"": 0, ""FrameDuration"": 365480, ""Lux"": 9669.797852, ""ExposureTime"": 28217, ""AnalogueGain"": 1.0, ""SensorBlackLevels"": [4096, 4096, 4096, 4096], ""AeLocked"": false, ""DigitalGain"": 1.184313, ""AfState"": 1, ""ColourGains"": [2.050539, 1.265277]}",28217,1.0,1.184313,,253.0,
+2025-12-05-15-04-25,iter12,/media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-15-04-25_iter12.jpg,15954,,,,0,"[0:25:19.896112669] [4022] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.2.0+46-075b54d5
+[0:25:19.904265124] [4026] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:662 [0mlibpisp version v1.0.4 6e3a53d137f4 14-02-2024 (14:00:12)
+[0:25:19.921431033] [4026] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1121 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 to CFE device /dev/media0 and ISP device /dev/media1 using PiSP variant BCM2712_C0
+Mode selection for 4624:3472:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 11359.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 9096
+    SBGGR10_CSI2P,3840x2160/0 - Score: 5359.24
+    SBGGR10_CSI2P,4624x3472/0 - Score: 1000
+    SBGGR10_CSI2P,8000x6000/0 - Score: 2476.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 3024
+Stream configuration adjusted
+[0:25:19.922046586] [4022] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 4624x3472-YUV420 (1) 4624x3472-RGGB16_PISP_COMP1
+[0:25:19.922126105] [4026] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 4624x3472-SRGGB10_1X10 - Selected CFE format: 4624x3472-PC1R
+Mode selection for 9248:6944:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 27551.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 25288
+    SBGGR10_CSI2P,3840x2160/0 - Score: 21551.2
+    SBGGR10_CSI2P,4624x3472/0 - Score: 17192
+    SBGGR10_CSI2P,8000x6000/0 - Score: 5384.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 1000
+Stream configuration adjusted
+[0:25:27.002830244] [4022] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 9248x6944-YUV420 (1) 9248x6944-RGGB16_PISP_COMP1
+[0:25:27.014021080] [4026] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 9248x6944-SRGGB10_1X10 - Selected CFE format: 9248x6944-PC1R
+Still capture image received
+","{""ColourCorrectionMatrix"": [1.74083, -0.323051, -0.41777, -0.251883, 1.868151, -0.616268, -0.08415, -0.630754, 1.714912], ""FocusFoM"": 11276, ""ColourTemperature"": 6239, ""SensorTimestamp"": 1529443969000, ""ScalerCrop"": ""(0, 0)/9280x6976"", ""LensPosition"": 1.270523, ""AfPauseState"": 0, ""FrameDuration"": 365480, ""Lux"": 19430.472656, ""ExposureTime"": 11783, ""AnalogueGain"": 1.0, ""SensorBlackLevels"": [4096, 4096, 4096, 4096], ""AeLocked"": false, ""DigitalGain"": 1.181525, ""AfState"": 1, ""ColourGains"": [1.996939, 1.297302]}",11783,1.0,1.181525,,249.9651481345325,
+2025-12-05-15-04-36,iter13,/media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-15-04-36_iter13.jpg,6832,,,,0,"[0:25:31.332377064] [4163] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.2.0+46-075b54d5
+[0:25:31.340574799] [4167] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:662 [0mlibpisp version v1.0.4 6e3a53d137f4 14-02-2024 (14:00:12)
+[0:25:31.357432472] [4167] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1121 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 to CFE device /dev/media0 and ISP device /dev/media1 using PiSP variant BCM2712_C0
+Mode selection for 4624:3472:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 11359.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 9096
+    SBGGR10_CSI2P,3840x2160/0 - Score: 5359.24
+    SBGGR10_CSI2P,4624x3472/0 - Score: 1000
+    SBGGR10_CSI2P,8000x6000/0 - Score: 2476.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 3024
+Stream configuration adjusted
+[0:25:31.358042248] [4163] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 4624x3472-YUV420 (1) 4624x3472-RGGB16_PISP_COMP1
+[0:25:31.358121729] [4167] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 4624x3472-SRGGB10_1X10 - Selected CFE format: 4624x3472-PC1R
+Mode selection for 9248:6944:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 27551.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 25288
+    SBGGR10_CSI2P,3840x2160/0 - Score: 21551.2
+    SBGGR10_CSI2P,4624x3472/0 - Score: 17192
+    SBGGR10_CSI2P,8000x6000/0 - Score: 5384.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 1000
+Stream configuration adjusted
+[0:25:38.395640226] [4163] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 9248x6944-YUV420 (1) 9248x6944-RGGB16_PISP_COMP1
+[0:25:38.406680103] [4167] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 9248x6944-SRGGB10_1X10 - Selected CFE format: 9248x6944-PC1R
+Still capture image received
+","{""ColourCorrectionMatrix"": [1.714694, -0.295163, -0.419521, -0.242267, 1.873961, -0.631694, -0.081509, -0.622578, 1.704096], ""FocusFoM"": 20737, ""ColourTemperature"": 6394, ""SensorTimestamp"": 1540822085000, ""ScalerCrop"": ""(0, 0)/9280x6976"", ""LensPosition"": 1.261742, ""AfPauseState"": 0, ""FrameDuration"": 365480, ""Lux"": 33571.894531, ""ExposureTime"": 5012, ""AnalogueGain"": 1.0, ""SensorBlackLevels"": [4096, 4096, 4096, 4096], ""AeLocked"": false, ""DigitalGain"": 1.188661, ""AfState"": 1, ""ColourGains"": [2.029321, 1.277531]}",5012,1.0,1.188661,,232.6246919872076,
+2025-12-05-15-04-48,iter14,/media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-15-04-48_iter14.jpg,3427,,,,0,"[0:25:42.875661021] [4177] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.2.0+46-075b54d5
+[0:25:42.883819110] [4181] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:662 [0mlibpisp version v1.0.4 6e3a53d137f4 14-02-2024 (14:00:12)
+[0:25:42.900932157] [4181] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1121 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 to CFE device /dev/media0 and ISP device /dev/media1 using PiSP variant BCM2712_C0
+Mode selection for 4624:3472:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 11359.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 9096
+    SBGGR10_CSI2P,3840x2160/0 - Score: 5359.24
+    SBGGR10_CSI2P,4624x3472/0 - Score: 1000
+    SBGGR10_CSI2P,8000x6000/0 - Score: 2476.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 3024
+Stream configuration adjusted
+[0:25:42.901540525] [4177] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 4624x3472-YUV420 (1) 4624x3472-RGGB16_PISP_COMP1
+[0:25:42.901620247] [4181] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 4624x3472-SRGGB10_1X10 - Selected CFE format: 4624x3472-PC1R
+Mode selection for 9248:6944:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 27551.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 25288
+    SBGGR10_CSI2P,3840x2160/0 - Score: 21551.2
+    SBGGR10_CSI2P,4624x3472/0 - Score: 17192
+    SBGGR10_CSI2P,8000x6000/0 - Score: 5384.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 1000
+Stream configuration adjusted
+[0:25:49.924807059] [4177] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 9248x6944-YUV420 (1) 9248x6944-RGGB16_PISP_COMP1
+[0:25:49.935995234] [4181] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 9248x6944-SRGGB10_1X10 - Selected CFE format: 9248x6944-PC1R
+Still capture image received
+","{""ColourCorrectionMatrix"": [1.696859, -0.276133, -0.420716, -0.235705, 1.877926, -0.642221, -0.079707, -0.616999, 1.696715], ""FocusFoM"": 12760, ""ColourTemperature"": 6501, ""SensorTimestamp"": 1552351149000, ""ScalerCrop"": ""(0, 0)/9280x6976"", ""LensPosition"": 1.254201, ""AfPauseState"": 0, ""FrameDuration"": 365480, ""Lux"": 37909.984375, ""ExposureTime"": 2480, ""AnalogueGain"": 1.0, ""SensorBlackLevels"": [4096, 4096, 4096, 4096], ""AeLocked"": false, ""DigitalGain"": 1.208109, ""AfState"": 1, ""ColourGains"": [2.052451, 1.264199]}",2480,1.0,1.208109,,207.98371560658774,
+2025-12-05-15-05-00,iter15,/media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-15-05-00_iter15.jpg,2199,,,,0,"[0:25:54.608246523] [4191] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.2.0+46-075b54d5
+[0:25:54.616409799] [4195] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:662 [0mlibpisp version v1.0.4 6e3a53d137f4 14-02-2024 (14:00:12)
+[0:25:54.633478665] [4195] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1121 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 to CFE device /dev/media0 and ISP device /dev/media1 using PiSP variant BCM2712_C0
+Mode selection for 4624:3472:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 11359.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 9096
+    SBGGR10_CSI2P,3840x2160/0 - Score: 5359.24
+    SBGGR10_CSI2P,4624x3472/0 - Score: 1000
+    SBGGR10_CSI2P,8000x6000/0 - Score: 2476.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 3024
+Stream configuration adjusted
+[0:25:54.634090830] [4191] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 4624x3472-YUV420 (1) 4624x3472-RGGB16_PISP_COMP1
+[0:25:54.634171552] [4195] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 4624x3472-SRGGB10_1X10 - Selected CFE format: 4624x3472-PC1R
+Mode selection for 9248:6944:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 27551.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 25288
+    SBGGR10_CSI2P,3840x2160/0 - Score: 21551.2
+    SBGGR10_CSI2P,4624x3472/0 - Score: 17192
+    SBGGR10_CSI2P,8000x6000/0 - Score: 5384.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 1000
+Stream configuration adjusted
+[0:26:01.661695840] [4191] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 9248x6944-YUV420 (1) 9248x6944-RGGB16_PISP_COMP1
+[0:26:01.669091027] [4195] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 9248x6944-SRGGB10_1X10 - Selected CFE format: 9248x6944-PC1R
+Still capture image received
+","{""ColourCorrectionMatrix"": [1.699264, -0.278699, -0.420555, -0.23659, 1.877391, -0.640801, -0.07995, -0.617751, 1.69771], ""FocusFoM"": 5163, ""ColourTemperature"": 6485, ""SensorTimestamp"": 1564137080000, ""ScalerCrop"": ""(0, 0)/9280x6976"", ""LensPosition"": 1.251926, ""AfPauseState"": 0, ""FrameDuration"": 365480, ""Lux"": 37677.941406, ""ExposureTime"": 1550, ""AnalogueGain"": 1.0, ""SensorBlackLevels"": [4096, 4096, 4096, 4096], ""AeLocked"": false, ""DigitalGain"": 1.294415, ""AfState"": 1, ""ColourGains"": [2.048976, 1.266161]}",1550,1.0,1.294415,,183.4459242900196,
+2025-12-05-15-05-13,iter16,/media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-15-05-13_iter16.jpg,1896,,,,0,"[0:26:08.457989392] [4206] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.2.0+46-075b54d5
+[0:26:08.466036023] [4210] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:662 [0mlibpisp version v1.0.4 6e3a53d137f4 14-02-2024 (14:00:12)
+[0:26:08.483103097] [4210] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1121 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 to CFE device /dev/media0 and ISP device /dev/media1 using PiSP variant BCM2712_C0
+Mode selection for 4624:3472:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 11359.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 9096
+    SBGGR10_CSI2P,3840x2160/0 - Score: 5359.24
+    SBGGR10_CSI2P,4624x3472/0 - Score: 1000
+    SBGGR10_CSI2P,8000x6000/0 - Score: 2476.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 3024
+Stream configuration adjusted
+[0:26:08.483721503] [4206] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 4624x3472-YUV420 (1) 4624x3472-RGGB16_PISP_COMP1
+[0:26:08.483802280] [4210] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 4624x3472-SRGGB10_1X10 - Selected CFE format: 4624x3472-PC1R
+Mode selection for 9248:6944:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 27551.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 25288
+    SBGGR10_CSI2P,3840x2160/0 - Score: 21551.2
+    SBGGR10_CSI2P,4624x3472/0 - Score: 17192
+    SBGGR10_CSI2P,8000x6000/0 - Score: 5384.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 1000
+Stream configuration adjusted
+[0:26:15.516485464] [4206] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 9248x6944-YUV420 (1) 9248x6944-RGGB16_PISP_COMP1
+[0:26:15.526935368] [4210] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 9248x6944-SRGGB10_1X10 - Selected CFE format: 9248x6944-PC1R
+Still capture image received
+","{""ColourCorrectionMatrix"": [1.697617, -0.276942, -0.420665, -0.235984, 1.877757, -0.641773, -0.079783, -0.617236, 1.697029], ""FocusFoM"": 4188, ""ColourTemperature"": 6495, ""SensorTimestamp"": 1577937893000, ""ScalerCrop"": ""(0, 0)/9280x6976"", ""LensPosition"": 1.250945, ""AfPauseState"": 0, ""FrameDuration"": 365480, ""Lux"": 37863.222656, ""ExposureTime"": 1395, ""AnalogueGain"": 1.0, ""SensorBlackLevels"": [4096, 4096, 4096, 4096], ""AeLocked"": false, ""DigitalGain"": 1.309054, ""AfState"": 1, ""ColourGains"": [2.063654, 1.268169]}",1395,1.0,1.309054,,177.49900221295823,
+2025-12-05-15-05-25,final(reused),/media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-15-05-25_ex1896us_mean177.jpg,1896,,,,0,"[0:26:08.457989392] [4206] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.2.0+46-075b54d5
+[0:26:08.466036023] [4210] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:662 [0mlibpisp version v1.0.4 6e3a53d137f4 14-02-2024 (14:00:12)
+[0:26:08.483103097] [4210] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1121 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 to CFE device /dev/media0 and ISP device /dev/media1 using PiSP variant BCM2712_C0
+Mode selection for 4624:3472:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 11359.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 9096
+    SBGGR10_CSI2P,3840x2160/0 - Score: 5359.24
+    SBGGR10_CSI2P,4624x3472/0 - Score: 1000
+    SBGGR10_CSI2P,8000x6000/0 - Score: 2476.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 3024
+Stream configuration adjusted
+[0:26:08.483721503] [4206] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 4624x3472-YUV420 (1) 4624x3472-RGGB16_PISP_COMP1
+[0:26:08.483802280] [4210] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 4624x3472-SRGGB10_1X10 - Selected CFE format: 4624x3472-PC1R
+Mode selection for 9248:6944:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 27551.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 25288
+    SBGGR10_CSI2P,3840x2160/0 - Score: 21551.2
+    SBGGR10_CSI2P,4624x3472/0 - Score: 17192
+    SBGGR10_CSI2P,8000x6000/0 - Score: 5384.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 1000
+Stream configuration adjusted
+[0:26:15.516485464] [4206] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 9248x6944-YUV420 (1) 9248x6944-RGGB16_PISP_COMP1
+[0:26:15.526935368] [4210] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 9248x6944-SRGGB10_1X10 - Selected CFE format: 9248x6944-PC1R
+Still capture image received
+","{""ColourCorrectionMatrix"": [1.697617, -0.276942, -0.420665, -0.235984, 1.877757, -0.641773, -0.079783, -0.617236, 1.697029], ""FocusFoM"": 4188, ""ColourTemperature"": 6495, ""SensorTimestamp"": 1577937893000, ""ScalerCrop"": ""(0, 0)/9280x6976"", ""LensPosition"": 1.250945, ""AfPauseState"": 0, ""FrameDuration"": 365480, ""Lux"": 37863.222656, ""ExposureTime"": 1395, ""AnalogueGain"": 1.0, ""SensorBlackLevels"": [4096, 4096, 4096, 4096], ""AeLocked"": false, ""DigitalGain"": 1.309054, ""AfState"": 1, ""ColourGains"": [2.063654, 1.268169]}",1395,1.0,1.309054,,177.49900221295823,Reused from iter16
+2025-12-05-15-10-21,iter1,/media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-15-10-21_iter1.jpg,1896,,,,0,"[0:31:15.649442311] [4622] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.2.0+46-075b54d5
+[0:31:15.657514819] [4625] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:662 [0mlibpisp version v1.0.4 6e3a53d137f4 14-02-2024 (14:00:12)
+[0:31:15.674235152] [4625] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1121 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 to CFE device /dev/media0 and ISP device /dev/media1 using PiSP variant BCM2712_C0
+Mode selection for 4624:3472:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 11359.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 9096
+    SBGGR10_CSI2P,3840x2160/0 - Score: 5359.24
+    SBGGR10_CSI2P,4624x3472/0 - Score: 1000
+    SBGGR10_CSI2P,8000x6000/0 - Score: 2476.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 3024
+Stream configuration adjusted
+[0:31:15.674844319] [4622] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 4624x3472-YUV420 (1) 4624x3472-RGGB16_PISP_COMP1
+[0:31:15.674922245] [4625] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 4624x3472-SRGGB10_1X10 - Selected CFE format: 4624x3472-PC1R
+Mode selection for 9248:6944:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 27551.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 25288
+    SBGGR10_CSI2P,3840x2160/0 - Score: 21551.2
+    SBGGR10_CSI2P,4624x3472/0 - Score: 17192
+    SBGGR10_CSI2P,8000x6000/0 - Score: 5384.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 1000
+Stream configuration adjusted
+[0:31:22.693750914] [4622] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 9248x6944-YUV420 (1) 9248x6944-RGGB16_PISP_COMP1
+[0:31:22.701285163] [4625] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 9248x6944-SRGGB10_1X10 - Selected CFE format: 9248x6944-PC1R
+Still capture image received
+","{""ColourCorrectionMatrix"": [1.701179, -0.280742, -0.420426, -0.237294, 1.876966, -0.639671, -0.080143, -0.61835, 1.698503], ""FocusFoM"": 1651, ""ColourTemperature"": 6474, ""SensorTimestamp"": 1885122738000, ""ScalerCrop"": ""(0, 0)/9280x6976"", ""LensPosition"": 1.196947, ""AfPauseState"": 0, ""FrameDuration"": 365480, ""Lux"": 34566.519531, ""ExposureTime"": 1395, ""AnalogueGain"": 1.0, ""SensorBlackLevels"": [4096, 4096, 4096, 4096], ""AeLocked"": false, ""DigitalGain"": 1.519683, ""AfState"": 1, ""ColourGains"": [2.062798, 1.27175]}",1395,1.0,1.519683,,182.88180885791223,
+2025-12-05-15-10-32,iter2,/media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-15-10-32_iter2.jpg,1649,,,,0,"[0:31:27.472079356] [4634] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.2.0+46-075b54d5
+[0:31:27.480168754] [4639] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:662 [0mlibpisp version v1.0.4 6e3a53d137f4 14-02-2024 (14:00:12)
+[0:31:27.496874217] [4639] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1121 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 to CFE device /dev/media0 and ISP device /dev/media1 using PiSP variant BCM2712_C0
+Mode selection for 4624:3472:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 11359.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 9096
+    SBGGR10_CSI2P,3840x2160/0 - Score: 5359.24
+    SBGGR10_CSI2P,4624x3472/0 - Score: 1000
+    SBGGR10_CSI2P,8000x6000/0 - Score: 2476.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 3024
+Stream configuration adjusted
+[0:31:27.497483181] [4634] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 4624x3472-YUV420 (1) 4624x3472-RGGB16_PISP_COMP1
+[0:31:27.497560274] [4639] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 4624x3472-SRGGB10_1X10 - Selected CFE format: 4624x3472-PC1R
+Mode selection for 9248:6944:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 27551.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 25288
+    SBGGR10_CSI2P,3840x2160/0 - Score: 21551.2
+    SBGGR10_CSI2P,4624x3472/0 - Score: 17192
+    SBGGR10_CSI2P,8000x6000/0 - Score: 5384.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 1000
+Stream configuration adjusted
+[0:31:34.524617815] [4634] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 9248x6944-YUV420 (1) 9248x6944-RGGB16_PISP_COMP1
+[0:31:34.535798124] [4639] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 9248x6944-SRGGB10_1X10 - Selected CFE format: 9248x6944-PC1R
+Still capture image received
+","{""ColourCorrectionMatrix"": [1.700091, -0.279582, -0.420499, -0.236894, 1.877207, -0.640313, -0.080033, -0.61801, 1.698053], ""FocusFoM"": 1231, ""ColourTemperature"": 6480, ""SensorTimestamp"": 1896944154000, ""ScalerCrop"": ""(0, 0)/9280x6976"", ""LensPosition"": 1.193844, ""AfPauseState"": 0, ""FrameDuration"": 365480, ""Lux"": 34429.71875, ""ExposureTime"": 1188, ""AnalogueGain"": 1.0, ""SensorBlackLevels"": [4096, 4096, 4096, 4096], ""AeLocked"": false, ""DigitalGain"": 1.785534, ""AfState"": 1, ""ColourGains"": [2.06425, 1.270959]}",1188,1.0,1.785534,,182.79285848515758,
+2025-12-05-15-10-46,iter3,/media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-15-10-46_iter3.jpg,1436,,,,0,"[0:31:41.064219123] [4648] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.2.0+46-075b54d5
+[0:31:41.072360170] [4653] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:662 [0mlibpisp version v1.0.4 6e3a53d137f4 14-02-2024 (14:00:12)
+[0:31:41.089412412] [4653] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1121 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 to CFE device /dev/media0 and ISP device /dev/media1 using PiSP variant BCM2712_C0
+Mode selection for 4624:3472:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 11359.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 9096
+    SBGGR10_CSI2P,3840x2160/0 - Score: 5359.24
+    SBGGR10_CSI2P,4624x3472/0 - Score: 1000
+    SBGGR10_CSI2P,8000x6000/0 - Score: 2476.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 3024
+Stream configuration adjusted
+[0:31:41.090019672] [4648] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 4624x3472-YUV420 (1) 4624x3472-RGGB16_PISP_COMP1
+[0:31:41.090098691] [4653] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 4624x3472-SRGGB10_1X10 - Selected CFE format: 4624x3472-PC1R
+Mode selection for 9248:6944:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 27551.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 25288
+    SBGGR10_CSI2P,3840x2160/0 - Score: 21551.2
+    SBGGR10_CSI2P,4624x3472/0 - Score: 17192
+    SBGGR10_CSI2P,8000x6000/0 - Score: 5384.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 1000
+Stream configuration adjusted
+[0:31:48.108078181] [4648] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 9248x6944-YUV420 (1) 9248x6944-RGGB16_PISP_COMP1
+[0:31:48.119292084] [4653] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 9248x6944-SRGGB10_1X10 - Selected CFE format: 9248x6944-PC1R
+Still capture image received
+","{""ColourCorrectionMatrix"": [1.703425, -0.283139, -0.420276, -0.238121, 1.876466, -0.638345, -0.08037, -0.619053, 1.699432], ""FocusFoM"": 2164, ""ColourTemperature"": 6461, ""SensorTimestamp"": 1910529450000, ""ScalerCrop"": ""(0, 0)/9280x6976"", ""LensPosition"": 1.183374, ""AfPauseState"": 0, ""FrameDuration"": 365480, ""Lux"": 34099.15625, ""ExposureTime"": 1033, ""AnalogueGain"": 1.5625, ""SensorBlackLevels"": [4096, 4096, 4096, 4096], ""AeLocked"": false, ""DigitalGain"": 1.31877, ""AfState"": 1, ""ColourGains"": [2.066819, 1.275192]}",1033,1.5625,1.31877,,182.09025067569723,
+2025-12-05-15-10-58,iter4,/media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-15-10-58_iter4.jpg,1264,,,,0,"[0:31:52.804086336] [4666] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.2.0+46-075b54d5
+[0:31:52.812278050] [4669] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:662 [0mlibpisp version v1.0.4 6e3a53d137f4 14-02-2024 (14:00:12)
+[0:31:52.829251034] [4669] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1121 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 to CFE device /dev/media0 and ISP device /dev/media1 using PiSP variant BCM2712_C0
+Mode selection for 4624:3472:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 11359.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 9096
+    SBGGR10_CSI2P,3840x2160/0 - Score: 5359.24
+    SBGGR10_CSI2P,4624x3472/0 - Score: 1000
+    SBGGR10_CSI2P,8000x6000/0 - Score: 2476.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 3024
+Stream configuration adjusted
+[0:31:52.829957071] [4666] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 4624x3472-YUV420 (1) 4624x3472-RGGB16_PISP_COMP1
+[0:31:52.830064423] [4669] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 4624x3472-SRGGB10_1X10 - Selected CFE format: 4624x3472-PC1R
+Mode selection for 9248:6944:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 27551.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 25288
+    SBGGR10_CSI2P,3840x2160/0 - Score: 21551.2
+    SBGGR10_CSI2P,4624x3472/0 - Score: 17192
+    SBGGR10_CSI2P,8000x6000/0 - Score: 5384.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 1000
+Stream configuration adjusted
+[0:31:59.850390292] [4666] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 9248x6944-YUV420 (1) 9248x6944-RGGB16_PISP_COMP1
+[0:31:59.861620787] [4669] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 9248x6944-SRGGB10_1X10 - Selected CFE format: 9248x6944-PC1R
+Still capture image received
+","{""ColourCorrectionMatrix"": [1.70455, -0.284339, -0.420201, -0.238535, 1.876216, -0.637682, -0.080484, -0.619405, 1.699898], ""FocusFoM"": 2230, ""ColourTemperature"": 6454, ""SensorTimestamp"": 1922271349000, ""ScalerCrop"": ""(0, 0)/9280x6976"", ""LensPosition"": 1.176769, ""AfPauseState"": 0, ""FrameDuration"": 365480, ""Lux"": 33170.078125, ""ExposureTime"": 930, ""AnalogueGain"": 1.78125, ""SensorBlackLevels"": [4096, 4096, 4096, 4096], ""AeLocked"": false, ""DigitalGain"": 1.293462, ""AfState"": 1, ""ColourGains"": [2.069021, 1.27697]}",930,1.78125,1.293462,,180.6341640345951,
+2025-12-05-15-11-10,iter5,/media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-15-11-10_iter5.jpg,1137,,,,0,"[0:32:05.424059839] [4679] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.2.0+46-075b54d5
+[0:32:05.432141738] [4684] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:662 [0mlibpisp version v1.0.4 6e3a53d137f4 14-02-2024 (14:00:12)
+[0:32:05.448913445] [4684] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1121 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 to CFE device /dev/media0 and ISP device /dev/media1 using PiSP variant BCM2712_C0
+Mode selection for 4624:3472:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 11359.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 9096
+    SBGGR10_CSI2P,3840x2160/0 - Score: 5359.24
+    SBGGR10_CSI2P,4624x3472/0 - Score: 1000
+    SBGGR10_CSI2P,8000x6000/0 - Score: 2476.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 3024
+Stream configuration adjusted
+[0:32:05.449519816] [4679] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 4624x3472-YUV420 (1) 4624x3472-RGGB16_PISP_COMP1
+[0:32:05.449596668] [4684] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 4624x3472-SRGGB10_1X10 - Selected CFE format: 4624x3472-PC1R
+Mode selection for 9248:6944:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 27551.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 25288
+    SBGGR10_CSI2P,3840x2160/0 - Score: 21551.2
+    SBGGR10_CSI2P,4624x3472/0 - Score: 17192
+    SBGGR10_CSI2P,8000x6000/0 - Score: 5384.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 1000
+Stream configuration adjusted
+[0:32:12.463742302] [4679] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 9248x6944-YUV420 (1) 9248x6944-RGGB16_PISP_COMP1
+[0:32:12.474925354] [4684] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 9248x6944-SRGGB10_1X10 - Selected CFE format: 9248x6944-PC1R
+Still capture image received
+","{""ColourCorrectionMatrix"": [1.700731, -0.280264, -0.420456, -0.23713, 1.877065, -0.639936, -0.080098, -0.61821, 1.698317], ""FocusFoM"": 2215, ""ColourTemperature"": 6477, ""SensorTimestamp"": 1934390213000, ""ScalerCrop"": ""(0, 0)/9280x6976"", ""LensPosition"": 1.177781, ""AfPauseState"": 0, ""FrameDuration"": 365480, ""Lux"": 32824.589844, ""ExposureTime"": 826, ""AnalogueGain"": 1.984375, ""SensorBlackLevels"": [4096, 4096, 4096, 4096], ""AeLocked"": false, ""DigitalGain"": 1.309536, ""AfState"": 1, ""ColourGains"": [2.068674, 1.272774]}",826,1.984375,1.309536,,180.10017234701635,
+2025-12-05-15-11-22,iter6,/media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-15-11-22_iter6.jpg,1030,,,,0,"[0:32:17.015395300] [4694] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.2.0+46-075b54d5
+[0:32:17.023532311] [4699] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:662 [0mlibpisp version v1.0.4 6e3a53d137f4 14-02-2024 (14:00:12)
+[0:32:17.040426741] [4699] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1121 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 to CFE device /dev/media0 and ISP device /dev/media1 using PiSP variant BCM2712_C0
+Mode selection for 4624:3472:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 11359.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 9096
+    SBGGR10_CSI2P,3840x2160/0 - Score: 5359.24
+    SBGGR10_CSI2P,4624x3472/0 - Score: 1000
+    SBGGR10_CSI2P,8000x6000/0 - Score: 2476.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 3024
+Stream configuration adjusted
+[0:32:17.041027835] [4694] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 4624x3472-YUV420 (1) 4624x3472-RGGB16_PISP_COMP1
+[0:32:17.041106686] [4699] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 4624x3472-SRGGB10_1X10 - Selected CFE format: 4624x3472-PC1R
+Mode selection for 9248:6944:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 27551.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 25288
+    SBGGR10_CSI2P,3840x2160/0 - Score: 21551.2
+    SBGGR10_CSI2P,4624x3472/0 - Score: 17192
+    SBGGR10_CSI2P,8000x6000/0 - Score: 5384.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 1000
+Stream configuration adjusted
+[0:32:24.077887519] [4694] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 9248x6944-YUV420 (1) 9248x6944-RGGB16_PISP_COMP1
+[0:32:24.089196516] [4699] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 9248x6944-SRGGB10_1X10 - Selected CFE format: 9248x6944-PC1R
+Still capture image received
+","{""ColourCorrectionMatrix"": [1.701986, -0.281604, -0.420372, -0.237592, 1.876786, -0.639194, -0.080225, -0.618603, 1.698837], ""FocusFoM"": 2406, ""ColourTemperature"": 6469, ""SensorTimestamp"": 1946498404000, ""ScalerCrop"": ""(0, 0)/9280x6976"", ""LensPosition"": 1.191582, ""AfPauseState"": 0, ""FrameDuration"": 365480, ""Lux"": 33023.140625, ""ExposureTime"": 826, ""AnalogueGain"": 2.046875, ""SensorBlackLevels"": [4096, 4096, 4096, 4096], ""AeLocked"": false, ""DigitalGain"": 1.284029, ""AfState"": 1, ""ColourGains"": [2.065625, 1.273341]}",826,2.046875,1.284029,,181.28508824737793,
+2025-12-05-15-11-34,iter7,/media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-15-11-34_iter7.jpg,918,,,,0,"[0:32:28.767143489] [4710] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.2.0+46-075b54d5
+[0:32:28.775279852] [4714] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:662 [0mlibpisp version v1.0.4 6e3a53d137f4 14-02-2024 (14:00:12)
+[0:32:28.792366950] [4714] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1121 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 to CFE device /dev/media0 and ISP device /dev/media1 using PiSP variant BCM2712_C0
+Mode selection for 4624:3472:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 11359.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 9096
+    SBGGR10_CSI2P,3840x2160/0 - Score: 5359.24
+    SBGGR10_CSI2P,4624x3472/0 - Score: 1000
+    SBGGR10_CSI2P,8000x6000/0 - Score: 2476.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 3024
+Stream configuration adjusted
+[0:32:28.792967284] [4710] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 4624x3472-YUV420 (1) 4624x3472-RGGB16_PISP_COMP1
+[0:32:28.793046284] [4714] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 4624x3472-SRGGB10_1X10 - Selected CFE format: 4624x3472-PC1R
+Mode selection for 9248:6944:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 27551.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 25288
+    SBGGR10_CSI2P,3840x2160/0 - Score: 21551.2
+    SBGGR10_CSI2P,4624x3472/0 - Score: 17192
+    SBGGR10_CSI2P,8000x6000/0 - Score: 5384.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 1000
+Stream configuration adjusted
+[0:32:35.822575542] [4710] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 9248x6944-YUV420 (1) 9248x6944-RGGB16_PISP_COMP1
+[0:32:35.833467002] [4714] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 9248x6944-SRGGB10_1X10 - Selected CFE format: 9248x6944-PC1R
+Still capture image received
+","{""ColourCorrectionMatrix"": [1.702989, -0.282675, -0.420305, -0.237961, 1.876563, -0.638602, -0.080326, -0.618917, 1.699252], ""FocusFoM"": 2508, ""ColourTemperature"": 6463, ""SensorTimestamp"": 1958245917000, ""ScalerCrop"": ""(0, 0)/9280x6976"", ""LensPosition"": 1.192225, ""AfPauseState"": 0, ""FrameDuration"": 365480, ""Lux"": 33524.230469, ""ExposureTime"": 826, ""AnalogueGain"": 2.023438, ""SensorBlackLevels"": [4096, 4096, 4096, 4096], ""AeLocked"": false, ""DigitalGain"": 1.281982, ""AfState"": 1, ""ColourGains"": [2.068207, 1.27508]}",826,2.023438,1.281982,,181.3190826133288,
+2025-12-05-15-11-48,iter8,/media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-15-11-48_iter8.jpg,817,,,,0,"[0:32:42.520591404] [4724] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.2.0+46-075b54d5
+[0:32:42.528684823] [4728] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:662 [0mlibpisp version v1.0.4 6e3a53d137f4 14-02-2024 (14:00:12)
+[0:32:42.545743422] [4728] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1121 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 to CFE device /dev/media0 and ISP device /dev/media1 using PiSP variant BCM2712_C0
+Mode selection for 4624:3472:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 11359.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 9096
+    SBGGR10_CSI2P,3840x2160/0 - Score: 5359.24
+    SBGGR10_CSI2P,4624x3472/0 - Score: 1000
+    SBGGR10_CSI2P,8000x6000/0 - Score: 2476.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 3024
+Stream configuration adjusted
+[0:32:42.546348015] [4724] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 4624x3472-YUV420 (1) 4624x3472-RGGB16_PISP_COMP1
+[0:32:42.546425145] [4728] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 4624x3472-SRGGB10_1X10 - Selected CFE format: 4624x3472-PC1R
+Mode selection for 9248:6944:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 27551.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 25288
+    SBGGR10_CSI2P,3840x2160/0 - Score: 21551.2
+    SBGGR10_CSI2P,4624x3472/0 - Score: 17192
+    SBGGR10_CSI2P,8000x6000/0 - Score: 5384.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 1000
+Stream configuration adjusted
+[0:32:49.559323444] [4724] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 9248x6944-YUV420 (1) 9248x6944-RGGB16_PISP_COMP1
+[0:32:49.570232071] [4728] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 9248x6944-SRGGB10_1X10 - Selected CFE format: 9248x6944-PC1R
+Still capture image received
+","{""ColourCorrectionMatrix"": [1.702046, -0.281668, -0.420368, -0.237614, 1.876773, -0.639159, -0.080231, -0.618621, 1.698862], ""FocusFoM"": 2495, ""ColourTemperature"": 6469, ""SensorTimestamp"": 1971485979000, ""ScalerCrop"": ""(0, 0)/9280x6976"", ""LensPosition"": 1.20419, ""AfPauseState"": 0, ""FrameDuration"": 365480, ""Lux"": 33102.46875, ""ExposureTime"": 826, ""AnalogueGain"": 2.039062, ""SensorBlackLevels"": [4096, 4096, 4096, 4096], ""AeLocked"": false, ""DigitalGain"": 1.284942, ""AfState"": 1, ""ColourGains"": [2.062296, 1.272551]}",826,2.039062,1.284942,,181.16726636248666,
+2025-12-05-15-11-59,iter9,/media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-15-11-59_iter9.jpg,729,,,,0,"[0:32:53.779661240] [4739] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.2.0+46-075b54d5
+[0:32:53.787698196] [4743] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:662 [0mlibpisp version v1.0.4 6e3a53d137f4 14-02-2024 (14:00:12)
+[0:32:53.804481406] [4743] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1121 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 to CFE device /dev/media0 and ISP device /dev/media1 using PiSP variant BCM2712_C0
+Mode selection for 4624:3472:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 11359.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 9096
+    SBGGR10_CSI2P,3840x2160/0 - Score: 5359.24
+    SBGGR10_CSI2P,4624x3472/0 - Score: 1000
+    SBGGR10_CSI2P,8000x6000/0 - Score: 2476.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 3024
+Stream configuration adjusted
+[0:32:53.805092833] [4739] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 4624x3472-YUV420 (1) 4624x3472-RGGB16_PISP_COMP1
+[0:32:53.805172556] [4743] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 4624x3472-SRGGB10_1X10 - Selected CFE format: 4624x3472-PC1R
+Mode selection for 9248:6944:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 27551.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 25288
+    SBGGR10_CSI2P,3840x2160/0 - Score: 21551.2
+    SBGGR10_CSI2P,4624x3472/0 - Score: 17192
+    SBGGR10_CSI2P,8000x6000/0 - Score: 5384.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 1000
+Stream configuration adjusted
+[0:33:00.827688962] [4739] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 9248x6944-YUV420 (1) 9248x6944-RGGB16_PISP_COMP1
+[0:33:00.839283332] [4743] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 9248x6944-SRGGB10_1X10 - Selected CFE format: 9248x6944-PC1R
+Still capture image received
+","{""ColourCorrectionMatrix"": [1.707135, -0.287098, -0.420027, -0.239486, 1.875641, -0.636155, -0.080745, -0.620214, 1.700968], ""FocusFoM"": 2560, ""ColourTemperature"": 6439, ""SensorTimestamp"": 1983253201000, ""ScalerCrop"": ""(0, 0)/9280x6976"", ""LensPosition"": 1.210881, ""AfPauseState"": 0, ""FrameDuration"": 365480, ""Lux"": 32438.800781, ""ExposureTime"": 826, ""AnalogueGain"": 2.078125, ""SensorBlackLevels"": [4096, 4096, 4096, 4096], ""AeLocked"": false, ""DigitalGain"": 1.28579, ""AfState"": 1, ""ColourGains"": [2.06146, 1.277813]}",826,2.078125,1.28579,,180.9893058986225,
+2025-12-05-15-12-12,iter10,/media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-15-12-12_iter10.jpg,652,,,,0,"[0:33:07.126176243] [4755] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.2.0+46-075b54d5
+[0:33:07.134191608] [4759] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:662 [0mlibpisp version v1.0.4 6e3a53d137f4 14-02-2024 (14:00:12)
+[0:33:07.150822504] [4759] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1121 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 to CFE device /dev/media0 and ISP device /dev/media1 using PiSP variant BCM2712_C0
+Mode selection for 4624:3472:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 11359.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 9096
+    SBGGR10_CSI2P,3840x2160/0 - Score: 5359.24
+    SBGGR10_CSI2P,4624x3472/0 - Score: 1000
+    SBGGR10_CSI2P,8000x6000/0 - Score: 2476.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 3024
+Stream configuration adjusted
+[0:33:07.151427931] [4755] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 4624x3472-YUV420 (1) 4624x3472-RGGB16_PISP_COMP1
+[0:33:07.151508005] [4759] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 4624x3472-SRGGB10_1X10 - Selected CFE format: 4624x3472-PC1R
+Mode selection for 9248:6944:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 27551.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 25288
+    SBGGR10_CSI2P,3840x2160/0 - Score: 21551.2
+    SBGGR10_CSI2P,4624x3472/0 - Score: 17192
+    SBGGR10_CSI2P,8000x6000/0 - Score: 5384.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 1000
+Stream configuration adjusted
+[0:33:14.190349457] [4755] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 9248x6944-YUV420 (1) 9248x6944-RGGB16_PISP_COMP1
+[0:33:14.201327215] [4759] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 9248x6944-SRGGB10_1X10 - Selected CFE format: 9248x6944-PC1R
+Still capture image received
+","{""ColourCorrectionMatrix"": [1.709456, -0.289574, -0.419872, -0.24034, 1.875126, -0.634786, -0.080979, -0.620939, 1.701928], ""FocusFoM"": 2501, ""ColourTemperature"": 6425, ""SensorTimestamp"": 1996617546000, ""ScalerCrop"": ""(0, 0)/9280x6976"", ""LensPosition"": 1.214517, ""AfPauseState"": 0, ""FrameDuration"": 365480, ""Lux"": 32078.455078, ""ExposureTime"": 826, ""AnalogueGain"": 2.09375, ""SensorBlackLevels"": [4096, 4096, 4096, 4096], ""AeLocked"": false, ""DigitalGain"": 1.284422, ""AfState"": 1, ""ColourGains"": [2.06037, 1.280042]}",826,2.09375,1.284422,,180.63079612181684,
+2025-12-05-15-12-24,iter11,/media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-15-12-24_iter11.jpg,586,,,,0,"[0:33:18.890512089] [4895] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.2.0+46-075b54d5
+[0:33:18.898579638] [4899] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:662 [0mlibpisp version v1.0.4 6e3a53d137f4 14-02-2024 (14:00:12)
+[0:33:18.915222720] [4899] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1121 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 to CFE device /dev/media0 and ISP device /dev/media1 using PiSP variant BCM2712_C0
+Mode selection for 4624:3472:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 11359.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 9096
+    SBGGR10_CSI2P,3840x2160/0 - Score: 5359.24
+    SBGGR10_CSI2P,4624x3472/0 - Score: 1000
+    SBGGR10_CSI2P,8000x6000/0 - Score: 2476.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 3024
+Stream configuration adjusted
+[0:33:18.915827018] [4895] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 4624x3472-YUV420 (1) 4624x3472-RGGB16_PISP_COMP1
+[0:33:18.915917703] [4899] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 4624x3472-SRGGB10_1X10 - Selected CFE format: 4624x3472-PC1R
+Mode selection for 9248:6944:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 27551.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 25288
+    SBGGR10_CSI2P,3840x2160/0 - Score: 21551.2
+    SBGGR10_CSI2P,4624x3472/0 - Score: 17192
+    SBGGR10_CSI2P,8000x6000/0 - Score: 5384.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 1000
+Stream configuration adjusted
+[0:33:25.947608371] [4895] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 9248x6944-YUV420 (1) 9248x6944-RGGB16_PISP_COMP1
+[0:33:25.958538907] [4899] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 9248x6944-SRGGB10_1X10 - Selected CFE format: 9248x6944-PC1R
+Still capture image received
+","{""ColourCorrectionMatrix"": [1.703305, -0.283011, -0.420284, -0.238077, 1.876493, -0.638416, -0.080358, -0.619015, 1.699383], ""FocusFoM"": 2619, ""ColourTemperature"": 6461, ""SensorTimestamp"": 2008375396000, ""ScalerCrop"": ""(0, 0)/9280x6976"", ""LensPosition"": 1.219388, ""AfPauseState"": 0, ""FrameDuration"": 365480, ""Lux"": 32043.671875, ""ExposureTime"": 826, ""AnalogueGain"": 2.085938, ""SensorBlackLevels"": [4096, 4096, 4096, 4096], ""AeLocked"": false, ""DigitalGain"": 1.284579, ""AfState"": 1, ""ColourGains"": [2.056189, 1.272329]}",826,2.085938,1.284579,,180.3625169796334,
+2025-12-05-15-12-36,iter12,/media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-15-12-36_iter12.jpg,529,,,,0,"[0:33:30.642309288] [4911] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.2.0+46-075b54d5
+[0:33:30.650303801] [4915] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:662 [0mlibpisp version v1.0.4 6e3a53d137f4 14-02-2024 (14:00:12)
+[0:33:30.667128606] [4915] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1121 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 to CFE device /dev/media0 and ISP device /dev/media1 using PiSP variant BCM2712_C0
+Mode selection for 4624:3472:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 11359.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 9096
+    SBGGR10_CSI2P,3840x2160/0 - Score: 5359.24
+    SBGGR10_CSI2P,4624x3472/0 - Score: 1000
+    SBGGR10_CSI2P,8000x6000/0 - Score: 2476.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 3024
+Stream configuration adjusted
+[0:33:30.667738014] [4911] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 4624x3472-YUV420 (1) 4624x3472-RGGB16_PISP_COMP1
+[0:33:30.667818015] [4915] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 4624x3472-SRGGB10_1X10 - Selected CFE format: 4624x3472-PC1R
+Mode selection for 9248:6944:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 27551.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 25288
+    SBGGR10_CSI2P,3840x2160/0 - Score: 21551.2
+    SBGGR10_CSI2P,4624x3472/0 - Score: 17192
+    SBGGR10_CSI2P,8000x6000/0 - Score: 5384.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 1000
+Stream configuration adjusted
+[0:33:37.691281252] [4911] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 9248x6944-YUV420 (1) 9248x6944-RGGB16_PISP_COMP1
+[0:33:37.702247863] [4915] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 9248x6944-SRGGB10_1X10 - Selected CFE format: 9248x6944-PC1R
+Still capture image received
+","{""ColourCorrectionMatrix"": [1.702846, -0.282522, -0.420315, -0.237908, 1.876595, -0.638687, -0.080312, -0.618872, 1.699193], ""FocusFoM"": 2694, ""ColourTemperature"": 6464, ""SensorTimestamp"": 2020116151000, ""ScalerCrop"": ""(0, 0)/9280x6976"", ""LensPosition"": 1.221201, ""AfPauseState"": 0, ""FrameDuration"": 365480, ""Lux"": 32261.794922, ""ExposureTime"": 826, ""AnalogueGain"": 2.0625, ""SensorBlackLevels"": [4096, 4096, 4096, 4096], ""AeLocked"": false, ""DigitalGain"": 1.285883, ""AfState"": 1, ""ColourGains"": [2.058689, 1.272487]}",826,2.0625,1.285883,,180.17811352037256,
+2025-12-05-15-12-49,iter13,/media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-15-12-49_iter13.jpg,479,,,,0,"[0:33:44.370989479] [4926] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.2.0+46-075b54d5
+[0:33:44.379043919] [4930] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:662 [0mlibpisp version v1.0.4 6e3a53d137f4 14-02-2024 (14:00:12)
+[0:33:44.395889484] [4930] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1121 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 to CFE device /dev/media0 and ISP device /dev/media1 using PiSP variant BCM2712_C0
+Mode selection for 4624:3472:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 11359.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 9096
+    SBGGR10_CSI2P,3840x2160/0 - Score: 5359.24
+    SBGGR10_CSI2P,4624x3472/0 - Score: 1000
+    SBGGR10_CSI2P,8000x6000/0 - Score: 2476.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 3024
+Stream configuration adjusted
+[0:33:44.396508318] [4926] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 4624x3472-YUV420 (1) 4624x3472-RGGB16_PISP_COMP1
+[0:33:44.396585874] [4930] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 4624x3472-SRGGB10_1X10 - Selected CFE format: 4624x3472-PC1R
+Mode selection for 9248:6944:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 27551.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 25288
+    SBGGR10_CSI2P,3840x2160/0 - Score: 21551.2
+    SBGGR10_CSI2P,4624x3472/0 - Score: 17192
+    SBGGR10_CSI2P,8000x6000/0 - Score: 5384.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 1000
+Stream configuration adjusted
+[0:33:51.405420515] [4926] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 9248x6944-YUV420 (1) 9248x6944-RGGB16_PISP_COMP1
+[0:33:51.416413053] [4930] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 9248x6944-SRGGB10_1X10 - Selected CFE format: 9248x6944-PC1R
+Still capture image received
+","{""ColourCorrectionMatrix"": [1.703581, -0.283306, -0.420265, -0.238178, 1.876431, -0.638253, -0.080386, -0.619102, 1.699497], ""FocusFoM"": 2630, ""ColourTemperature"": 6460, ""SensorTimestamp"": 2033825871000, ""ScalerCrop"": ""(0, 0)/9280x6976"", ""LensPosition"": 1.227559, ""AfPauseState"": 0, ""FrameDuration"": 365480, ""Lux"": 31598.478516, ""ExposureTime"": 826, ""AnalogueGain"": 2.085938, ""SensorBlackLevels"": [4096, 4096, 4096, 4096], ""AeLocked"": false, ""DigitalGain"": 1.286889, ""AfState"": 1, ""ColourGains"": [2.060297, 1.273684]}",826,2.085938,1.286889,,179.54363339115295,
+2025-12-05-15-13-01,iter14,/media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-15-13-01_iter14.jpg,437,,,,0,"[0:33:56.101321657] [4942] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.2.0+46-075b54d5
+[0:33:56.109360374] [4946] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:662 [0mlibpisp version v1.0.4 6e3a53d137f4 14-02-2024 (14:00:12)
+[0:33:56.125926588] [4946] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1121 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 to CFE device /dev/media0 and ISP device /dev/media1 using PiSP variant BCM2712_C0
+Mode selection for 4624:3472:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 11359.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 9096
+    SBGGR10_CSI2P,3840x2160/0 - Score: 5359.24
+    SBGGR10_CSI2P,4624x3472/0 - Score: 1000
+    SBGGR10_CSI2P,8000x6000/0 - Score: 2476.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 3024
+Stream configuration adjusted
+[0:33:56.126527200] [4942] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 4624x3472-YUV420 (1) 4624x3472-RGGB16_PISP_COMP1
+[0:33:56.126606107] [4946] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 4624x3472-SRGGB10_1X10 - Selected CFE format: 4624x3472-PC1R
+Mode selection for 9248:6944:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 27551.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 25288
+    SBGGR10_CSI2P,3840x2160/0 - Score: 21551.2
+    SBGGR10_CSI2P,4624x3472/0 - Score: 17192
+    SBGGR10_CSI2P,8000x6000/0 - Score: 5384.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 1000
+Stream configuration adjusted
+[0:34:03.156633212] [4942] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 9248x6944-YUV420 (1) 9248x6944-RGGB16_PISP_COMP1
+[0:34:03.167849954] [4946] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 9248x6944-SRGGB10_1X10 - Selected CFE format: 9248x6944-PC1R
+Still capture image received
+","{""ColourCorrectionMatrix"": [1.702192, -0.281823, -0.420358, -0.237667, 1.87674, -0.639073, -0.080245, -0.618667, 1.698922], ""FocusFoM"": 2630, ""ColourTemperature"": 6468, ""SensorTimestamp"": 2045583680000, ""ScalerCrop"": ""(0, 0)/9280x6976"", ""LensPosition"": 1.230015, ""AfPauseState"": 0, ""FrameDuration"": 365480, ""Lux"": 30948.763672, ""ExposureTime"": 826, ""AnalogueGain"": 2.109375, ""SensorBlackLevels"": [4096, 4096, 4096, 4096], ""AeLocked"": false, ""DigitalGain"": 1.289249, ""AfState"": 1, ""ColourGains"": [2.060989, 1.272383]}",826,2.109375,1.289249,,179.0715198229434,
+2025-12-05-15-13-15,iter15,/media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-15-13-15_iter15.jpg,401,,,,0,"[0:34:09.858269627] [4957] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.2.0+46-075b54d5
+[0:34:09.866315049] [4961] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:662 [0mlibpisp version v1.0.4 6e3a53d137f4 14-02-2024 (14:00:12)
+[0:34:09.882809059] [4961] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1121 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 to CFE device /dev/media0 and ISP device /dev/media1 using PiSP variant BCM2712_C0
+Mode selection for 4624:3472:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 11359.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 9096
+    SBGGR10_CSI2P,3840x2160/0 - Score: 5359.24
+    SBGGR10_CSI2P,4624x3472/0 - Score: 1000
+    SBGGR10_CSI2P,8000x6000/0 - Score: 2476.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 3024
+Stream configuration adjusted
+[0:34:09.883411171] [4957] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 4624x3472-YUV420 (1) 4624x3472-RGGB16_PISP_COMP1
+[0:34:09.883491967] [4961] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 4624x3472-SRGGB10_1X10 - Selected CFE format: 4624x3472-PC1R
+Mode selection for 9248:6944:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 27551.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 25288
+    SBGGR10_CSI2P,3840x2160/0 - Score: 21551.2
+    SBGGR10_CSI2P,4624x3472/0 - Score: 17192
+    SBGGR10_CSI2P,8000x6000/0 - Score: 5384.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 1000
+Stream configuration adjusted
+[0:34:16.909662003] [4957] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 9248x6944-YUV420 (1) 9248x6944-RGGB16_PISP_COMP1
+[0:34:16.920769875] [4961] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 9248x6944-SRGGB10_1X10 - Selected CFE format: 9248x6944-PC1R
+Still capture image received
+","{""ColourCorrectionMatrix"": [1.702908, -0.282588, -0.42031, -0.237931, 1.876581, -0.638651, -0.080318, -0.618891, 1.699218], ""FocusFoM"": 3026, ""ColourTemperature"": 6464, ""SensorTimestamp"": 2059335807000, ""ScalerCrop"": ""(0, 0)/9280x6976"", ""LensPosition"": 1.232072, ""AfPauseState"": 0, ""FrameDuration"": 365480, ""Lux"": 32198.132812, ""ExposureTime"": 826, ""AnalogueGain"": 2.132812, ""SensorBlackLevels"": [4096, 4096, 4096, 4096], ""AeLocked"": false, ""DigitalGain"": 1.277955, ""AfState"": 1, ""ColourGains"": [2.062131, 1.273435]}",826,2.132812,1.277955,,181.86006997527426,
+2025-12-05-15-13-27,iter16,/media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-15-13-27_iter16.jpg,354,,,,0,"[0:34:21.630836562] [4972] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.2.0+46-075b54d5
+[0:34:21.638958076] [4976] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:662 [0mlibpisp version v1.0.4 6e3a53d137f4 14-02-2024 (14:00:12)
+[0:34:21.655849347] [4976] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1121 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 to CFE device /dev/media0 and ISP device /dev/media1 using PiSP variant BCM2712_C0
+Mode selection for 4624:3472:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 11359.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 9096
+    SBGGR10_CSI2P,3840x2160/0 - Score: 5359.24
+    SBGGR10_CSI2P,4624x3472/0 - Score: 1000
+    SBGGR10_CSI2P,8000x6000/0 - Score: 2476.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 3024
+Stream configuration adjusted
+[0:34:21.656469237] [4972] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 4624x3472-YUV420 (1) 4624x3472-RGGB16_PISP_COMP1
+[0:34:21.656542996] [4976] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 4624x3472-SRGGB10_1X10 - Selected CFE format: 4624x3472-PC1R
+Mode selection for 9248:6944:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 27551.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 25288
+    SBGGR10_CSI2P,3840x2160/0 - Score: 21551.2
+    SBGGR10_CSI2P,4624x3472/0 - Score: 17192
+    SBGGR10_CSI2P,8000x6000/0 - Score: 5384.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 1000
+Stream configuration adjusted
+[0:34:28.696751723] [4972] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 9248x6944-YUV420 (1) 9248x6944-RGGB16_PISP_COMP1
+[0:34:28.707816391] [4976] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 9248x6944-SRGGB10_1X10 - Selected CFE format: 9248x6944-PC1R
+Still capture image received
+","{""ColourCorrectionMatrix"": [1.698632, -0.278025, -0.420597, -0.236358, 1.877532, -0.641174, -0.079886, -0.617553, 1.697449], ""FocusFoM"": 3062, ""ColourTemperature"": 6489, ""SensorTimestamp"": 2071124749000, ""ScalerCrop"": ""(0, 0)/9280x6976"", ""LensPosition"": 1.230754, ""AfPauseState"": 0, ""FrameDuration"": 365480, ""Lux"": 31773.824219, ""ExposureTime"": 826, ""AnalogueGain"": 2.148438, ""SensorBlackLevels"": [4096, 4096, 4096, 4096], ""AeLocked"": false, ""DigitalGain"": 1.280507, ""AfState"": 1, ""ColourGains"": [2.059048, 1.268072]}",826,2.148438,1.280507,,181.61357812886183,
+2025-12-05-15-13-40,iter17,/media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-15-13-40_iter17.jpg,314,,,,0,"[0:34:35.403262935] [4986] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.2.0+46-075b54d5
+[0:34:35.411293357] [4990] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:662 [0mlibpisp version v1.0.4 6e3a53d137f4 14-02-2024 (14:00:12)
+[0:34:35.428350925] [4990] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1121 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 to CFE device /dev/media0 and ISP device /dev/media1 using PiSP variant BCM2712_C0
+Mode selection for 4624:3472:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 11359.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 9096
+    SBGGR10_CSI2P,3840x2160/0 - Score: 5359.24
+    SBGGR10_CSI2P,4624x3472/0 - Score: 1000
+    SBGGR10_CSI2P,8000x6000/0 - Score: 2476.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 3024
+Stream configuration adjusted
+[0:34:35.428962500] [4986] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 4624x3472-YUV420 (1) 4624x3472-RGGB16_PISP_COMP1
+[0:34:35.429041130] [4990] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 4624x3472-SRGGB10_1X10 - Selected CFE format: 4624x3472-PC1R
+Mode selection for 9248:6944:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 27551.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 25288
+    SBGGR10_CSI2P,3840x2160/0 - Score: 21551.2
+    SBGGR10_CSI2P,4624x3472/0 - Score: 17192
+    SBGGR10_CSI2P,8000x6000/0 - Score: 5384.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 1000
+Stream configuration adjusted
+[0:34:42.445749022] [4986] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 9248x6944-YUV420 (1) 9248x6944-RGGB16_PISP_COMP1
+[0:34:42.456758413] [4990] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 9248x6944-SRGGB10_1X10 - Selected CFE format: 9248x6944-PC1R
+Still capture image received
+","{""ColourCorrectionMatrix"": [1.701889, -0.2815, -0.420379, -0.237556, 1.876808, -0.639252, -0.080215, -0.618572, 1.698797], ""FocusFoM"": 3159, ""ColourTemperature"": 6470, ""SensorTimestamp"": 2084872760000, ""ScalerCrop"": ""(0, 0)/9280x6976"", ""LensPosition"": 1.232767, ""AfPauseState"": 0, ""FrameDuration"": 365480, ""Lux"": 31987.71875, ""ExposureTime"": 826, ""AnalogueGain"": 2.140625, ""SensorBlackLevels"": [4096, 4096, 4096, 4096], ""AeLocked"": false, ""DigitalGain"": 1.281405, ""AfState"": 1, ""ColourGains"": [2.064661, 1.272989]}",826,2.140625,1.281405,,181.72528348388693,
+2025-12-05-15-13-52,iter18,/media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-15-13-52_iter18.jpg,278,,,,0,"[0:34:47.152723194] [5002] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.2.0+46-075b54d5
+[0:34:47.160864690] [5006] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:662 [0mlibpisp version v1.0.4 6e3a53d137f4 14-02-2024 (14:00:12)
+[0:34:47.178106796] [5006] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1121 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 to CFE device /dev/media0 and ISP device /dev/media1 using PiSP variant BCM2712_C0
+Mode selection for 4624:3472:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 11359.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 9096
+    SBGGR10_CSI2P,3840x2160/0 - Score: 5359.24
+    SBGGR10_CSI2P,4624x3472/0 - Score: 1000
+    SBGGR10_CSI2P,8000x6000/0 - Score: 2476.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 3024
+Stream configuration adjusted
+[0:34:47.178713705] [5002] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 4624x3472-YUV420 (1) 4624x3472-RGGB16_PISP_COMP1
+[0:34:47.178796427] [5006] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 4624x3472-SRGGB10_1X10 - Selected CFE format: 4624x3472-PC1R
+Mode selection for 9248:6944:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 27551.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 25288
+    SBGGR10_CSI2P,3840x2160/0 - Score: 21551.2
+    SBGGR10_CSI2P,4624x3472/0 - Score: 17192
+    SBGGR10_CSI2P,8000x6000/0 - Score: 5384.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 1000
+Stream configuration adjusted
+[0:34:54.202899439] [5002] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 9248x6944-YUV420 (1) 9248x6944-RGGB16_PISP_COMP1
+[0:34:54.214021237] [5006] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 9248x6944-SRGGB10_1X10 - Selected CFE format: 9248x6944-PC1R
+Still capture image received
+","{""ColourCorrectionMatrix"": [1.698535, -0.277922, -0.420603, -0.236322, 1.877553, -0.641231, -0.079876, -0.617523, 1.697409], ""FocusFoM"": 3233, ""ColourTemperature"": 6490, ""SensorTimestamp"": 2096624780000, ""ScalerCrop"": ""(0, 0)/9280x6976"", ""LensPosition"": 1.234072, ""AfPauseState"": 0, ""FrameDuration"": 365480, ""Lux"": 31859.371094, ""ExposureTime"": 826, ""AnalogueGain"": 2.15625, ""SensorBlackLevels"": [4096, 4096, 4096, 4096], ""AeLocked"": false, ""DigitalGain"": 1.282774, ""AfState"": 1, ""ColourGains"": [2.061875, 1.268693]}",826,2.15625,1.282774,,181.951222546063,
+2025-12-05-15-14-05,iter19,/media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-15-14-05_iter19.jpg,245,,,,0,"[0:34:59.546712429] [5017] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.2.0+46-075b54d5
+[0:34:59.554767981] [5021] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:662 [0mlibpisp version v1.0.4 6e3a53d137f4 14-02-2024 (14:00:12)
+[0:34:59.571744531] [5021] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1121 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 to CFE device /dev/media0 and ISP device /dev/media1 using PiSP variant BCM2712_C0
+Mode selection for 4624:3472:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 11359.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 9096
+    SBGGR10_CSI2P,3840x2160/0 - Score: 5359.24
+    SBGGR10_CSI2P,4624x3472/0 - Score: 1000
+    SBGGR10_CSI2P,8000x6000/0 - Score: 2476.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 3024
+Stream configuration adjusted
+[0:34:59.572363532] [5017] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 4624x3472-YUV420 (1) 4624x3472-RGGB16_PISP_COMP1
+[0:34:59.572443643] [5021] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 4624x3472-SRGGB10_1X10 - Selected CFE format: 4624x3472-PC1R
+Mode selection for 9248:6944:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 27551.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 25288
+    SBGGR10_CSI2P,3840x2160/0 - Score: 21551.2
+    SBGGR10_CSI2P,4624x3472/0 - Score: 17192
+    SBGGR10_CSI2P,8000x6000/0 - Score: 5384.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 1000
+Stream configuration adjusted
+[0:35:06.596426763] [5017] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 9248x6944-YUV420 (1) 9248x6944-RGGB16_PISP_COMP1
+[0:35:06.607561265] [5021] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 9248x6944-SRGGB10_1X10 - Selected CFE format: 9248x6944-PC1R
+Still capture image received
+","{""ColourCorrectionMatrix"": [1.705177, -0.285008, -0.420159, -0.238765, 1.876077, -0.637311, -0.080547, -0.619601, 1.700157], ""FocusFoM"": 3330, ""ColourTemperature"": 6450, ""SensorTimestamp"": 2109021965000, ""ScalerCrop"": ""(0, 0)/9280x6976"", ""LensPosition"": 1.23598, ""AfPauseState"": 0, ""FrameDuration"": 365480, ""Lux"": 31728.421875, ""ExposureTime"": 826, ""AnalogueGain"": 2.179688, ""SensorBlackLevels"": [4096, 4096, 4096, 4096], ""AeLocked"": false, ""DigitalGain"": 1.2821, ""AfState"": 1, ""ColourGains"": [2.064264, 1.276426]}",826,2.179688,1.2821,,182.149288163439,
+2025-12-05-15-14-17,iter20,/media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-15-14-17_iter20.jpg,216,,,,0,"[0:35:11.888605174] [5032] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.2.0+46-075b54d5
+[0:35:11.896712318] [5036] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:662 [0mlibpisp version v1.0.4 6e3a53d137f4 14-02-2024 (14:00:12)
+[0:35:11.913673795] [5036] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1121 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 to CFE device /dev/media0 and ISP device /dev/media1 using PiSP variant BCM2712_C0
+Mode selection for 4624:3472:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 11359.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 9096
+    SBGGR10_CSI2P,3840x2160/0 - Score: 5359.24
+    SBGGR10_CSI2P,4624x3472/0 - Score: 1000
+    SBGGR10_CSI2P,8000x6000/0 - Score: 2476.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 3024
+Stream configuration adjusted
+[0:35:11.914280444] [5032] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 4624x3472-YUV420 (1) 4624x3472-RGGB16_PISP_COMP1
+[0:35:11.914357741] [5036] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 4624x3472-SRGGB10_1X10 - Selected CFE format: 4624x3472-PC1R
+Mode selection for 9248:6944:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 27551.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 25288
+    SBGGR10_CSI2P,3840x2160/0 - Score: 21551.2
+    SBGGR10_CSI2P,4624x3472/0 - Score: 17192
+    SBGGR10_CSI2P,8000x6000/0 - Score: 5384.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 1000
+Stream configuration adjusted
+[0:35:18.931986594] [5032] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 9248x6944-YUV420 (1) 9248x6944-RGGB16_PISP_COMP1
+[0:35:18.943101078] [5036] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 9248x6944-SRGGB10_1X10 - Selected CFE format: 9248x6944-PC1R
+Still capture image received
+","{""ColourCorrectionMatrix"": [1.702267, -0.281904, -0.420353, -0.237695, 1.876724, -0.639029, -0.080253, -0.618691, 1.698953], ""FocusFoM"": 3427, ""ColourTemperature"": 6467, ""SensorTimestamp"": 2121351808000, ""ScalerCrop"": ""(0, 0)/9280x6976"", ""LensPosition"": 1.236791, ""AfPauseState"": 0, ""FrameDuration"": 365480, ""Lux"": 32355.070312, ""ExposureTime"": 826, ""AnalogueGain"": 2.148438, ""SensorBlackLevels"": [4096, 4096, 4096, 4096], ""AeLocked"": false, ""DigitalGain"": 1.282175, ""AfState"": 1, ""ColourGains"": [2.062109, 1.272748]}",826,2.148438,1.282175,,182.46074738229615,
+2025-12-05-15-14-29,final,/media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-15-14-29_ex189us_mean183.jpg,189,,,,0,"[0:35:23.638744392] [5046] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.2.0+46-075b54d5
+[0:35:23.646884500] [5050] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:662 [0mlibpisp version v1.0.4 6e3a53d137f4 14-02-2024 (14:00:12)
+[0:35:23.664114533] [5050] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1121 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 to CFE device /dev/media0 and ISP device /dev/media1 using PiSP variant BCM2712_C0
+Mode selection for 4624:3472:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 11359.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 9096
+    SBGGR10_CSI2P,3840x2160/0 - Score: 5359.24
+    SBGGR10_CSI2P,4624x3472/0 - Score: 1000
+    SBGGR10_CSI2P,8000x6000/0 - Score: 2476.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 3024
+Stream configuration adjusted
+[0:35:23.664722978] [5046] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 4624x3472-YUV420 (1) 4624x3472-RGGB16_PISP_COMP1
+[0:35:23.664803256] [5050] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 4624x3472-SRGGB10_1X10 - Selected CFE format: 4624x3472-PC1R
+Mode selection for 9248:6944:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 27551.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 25288
+    SBGGR10_CSI2P,3840x2160/0 - Score: 21551.2
+    SBGGR10_CSI2P,4624x3472/0 - Score: 17192
+    SBGGR10_CSI2P,8000x6000/0 - Score: 5384.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 1000
+Stream configuration adjusted
+[0:35:30.699206388] [5046] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 9248x6944-YUV420 (1) 9248x6944-RGGB16_PISP_COMP1
+[0:35:30.710489280] [5050] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 9248x6944-SRGGB10_1X10 - Selected CFE format: 9248x6944-PC1R
+Still capture image received
+","{""ColourCorrectionMatrix"": [1.706569, -0.286494, -0.420065, -0.239278, 1.875767, -0.63649, -0.080688, -0.620036, 1.700734], ""FocusFoM"": 3338, ""ColourTemperature"": 6442, ""SensorTimestamp"": 2133121613000, ""ScalerCrop"": ""(0, 0)/9280x6976"", ""LensPosition"": 1.242019, ""AfPauseState"": 0, ""FrameDuration"": 365480, ""Lux"": 32652.123047, ""ExposureTime"": 826, ""AnalogueGain"": 2.132812, ""SensorBlackLevels"": [4096, 4096, 4096, 4096], ""AeLocked"": false, ""DigitalGain"": 1.281294, ""AfState"": 1, ""ColourGains"": [2.053181, 1.275052]}",826,2.132812,1.281294,,182.61546764252427,
+2025-12-05-15-18-25,iter1,/media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-15-18-25_iter1.jpg,189,,,,0,"[0:03:09.203521164] [2434] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.2.0+46-075b54d5
+[0:03:09.212885923] [2439] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:662 [0mlibpisp version v1.0.4 6e3a53d137f4 14-02-2024 (14:00:12)
+[0:03:09.240522553] [2439] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1121 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 to CFE device /dev/media2 and ISP device /dev/media0 using PiSP variant BCM2712_C0
+Mode selection for 4624:3472:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 11359.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 9096
+    SBGGR10_CSI2P,3840x2160/0 - Score: 5359.24
+    SBGGR10_CSI2P,4624x3472/0 - Score: 1000
+    SBGGR10_CSI2P,8000x6000/0 - Score: 2476.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 3024
+Stream configuration adjusted
+[0:03:09.241165553] [2434] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 4624x3472-YUV420 (1) 4624x3472-RGGB16_PISP_COMP1
+[0:03:09.241242053] [2439] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 4624x3472-SRGGB10_1X10 - Selected CFE format: 4624x3472-PC1R
+Mode selection for 9248:6944:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 27551.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 25288
+    SBGGR10_CSI2P,3840x2160/0 - Score: 21551.2
+    SBGGR10_CSI2P,4624x3472/0 - Score: 17192
+    SBGGR10_CSI2P,8000x6000/0 - Score: 5384.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 1000
+Stream configuration adjusted
+[0:03:16.270249363] [2434] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 9248x6944-YUV420 (1) 9248x6944-RGGB16_PISP_COMP1
+[0:03:16.277718808] [2439] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 9248x6944-SRGGB10_1X10 - Selected CFE format: 9248x6944-PC1R
+Still capture image received
+","{""ColourCorrectionMatrix"": [1.704252, -0.284021, -0.42022, -0.238425, 1.876282, -0.637857, -0.080454, -0.619311, 1.699775], ""FocusFoM"": 2456, ""ColourTemperature"": 6456, ""SensorTimestamp"": 198702969000, ""ScalerCrop"": ""(0, 0)/9280x6976"", ""LensPosition"": 1.180827, ""AfPauseState"": 0, ""FrameDuration"": 365480, ""Lux"": 31711.283203, ""ExposureTime"": 826, ""AnalogueGain"": 2.101562, ""SensorBlackLevels"": [4096, 4096, 4096, 4096], ""AeLocked"": false, ""DigitalGain"": 1.29079, ""AfState"": 1, ""ColourGains"": [2.054345, 1.272867]}",826,2.101562,1.29079,,180.53740483681614,
+2025-12-05-15-18-38,iter2,/media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-15-18-38_iter2.jpg,170,,,,0,"[0:03:21.102406638] [2449] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.2.0+46-075b54d5
+[0:03:21.110587805] [2452] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:662 [0mlibpisp version v1.0.4 6e3a53d137f4 14-02-2024 (14:00:12)
+[0:03:21.127570546] [2452] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1121 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 to CFE device /dev/media2 and ISP device /dev/media0 using PiSP variant BCM2712_C0
+Mode selection for 4624:3472:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 11359.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 9096
+    SBGGR10_CSI2P,3840x2160/0 - Score: 5359.24
+    SBGGR10_CSI2P,4624x3472/0 - Score: 1000
+    SBGGR10_CSI2P,8000x6000/0 - Score: 2476.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 3024
+Stream configuration adjusted
+[0:03:21.128249768] [2449] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 4624x3472-YUV420 (1) 4624x3472-RGGB16_PISP_COMP1
+[0:03:21.128378768] [2452] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 4624x3472-SRGGB10_1X10 - Selected CFE format: 4624x3472-PC1R
+Mode selection for 9248:6944:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 27551.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 25288
+    SBGGR10_CSI2P,3840x2160/0 - Score: 21551.2
+    SBGGR10_CSI2P,4624x3472/0 - Score: 17192
+    SBGGR10_CSI2P,8000x6000/0 - Score: 5384.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 1000
+Stream configuration adjusted
+[0:03:28.180897264] [2449] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 9248x6944-YUV420 (1) 9248x6944-RGGB16_PISP_COMP1
+[0:03:28.191632393] [2452] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 9248x6944-SRGGB10_1X10 - Selected CFE format: 9248x6944-PC1R
+Still capture image received
+","{""ColourCorrectionMatrix"": [1.706385, -0.286298, -0.420078, -0.23921, 1.875808, -0.636598, -0.080669, -0.619979, 1.700657], ""FocusFoM"": 2358, ""ColourTemperature"": 6443, ""SensorTimestamp"": 210606878000, ""ScalerCrop"": ""(0, 0)/9280x6976"", ""LensPosition"": 1.178308, ""AfPauseState"": 0, ""FrameDuration"": 365480, ""Lux"": 31442.691406, ""ExposureTime"": 826, ""AnalogueGain"": 2.117188, ""SensorBlackLevels"": [4096, 4096, 4096, 4096], ""AeLocked"": false, ""DigitalGain"": 1.289995, ""AfState"": 1, ""ColourGains"": [2.054345, 1.275158]}",826,2.117188,1.289995,,180.50057134971516,
+2025-12-05-15-18-51,iter3,/media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-15-18-51_iter3.jpg,153,,,,0,"[0:03:34.896192834] [2461] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.2.0+46-075b54d5
+[0:03:34.904289389] [2464] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:662 [0mlibpisp version v1.0.4 6e3a53d137f4 14-02-2024 (14:00:12)
+[0:03:34.921167038] [2464] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1121 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 to CFE device /dev/media2 and ISP device /dev/media0 using PiSP variant BCM2712_C0
+Mode selection for 4624:3472:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 11359.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 9096
+    SBGGR10_CSI2P,3840x2160/0 - Score: 5359.24
+    SBGGR10_CSI2P,4624x3472/0 - Score: 1000
+    SBGGR10_CSI2P,8000x6000/0 - Score: 2476.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 3024
+Stream configuration adjusted
+[0:03:34.921876519] [2461] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 4624x3472-YUV420 (1) 4624x3472-RGGB16_PISP_COMP1
+[0:03:34.921971556] [2464] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 4624x3472-SRGGB10_1X10 - Selected CFE format: 4624x3472-PC1R
+Mode selection for 9248:6944:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 27551.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 25288
+    SBGGR10_CSI2P,3840x2160/0 - Score: 21551.2
+    SBGGR10_CSI2P,4624x3472/0 - Score: 17192
+    SBGGR10_CSI2P,8000x6000/0 - Score: 5384.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 1000
+Stream configuration adjusted
+[0:03:41.936795311] [2461] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 9248x6944-YUV420 (1) 9248x6944-RGGB16_PISP_COMP1
+[0:03:41.947632978] [2464] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 9248x6944-SRGGB10_1X10 - Selected CFE format: 9248x6944-PC1R
+Still capture image received
+","{""ColourCorrectionMatrix"": [1.7032, -0.282899, -0.420291, -0.238038, 1.876516, -0.638478, -0.080347, -0.618982, 1.699339], ""FocusFoM"": 2646, ""ColourTemperature"": 6462, ""SensorTimestamp"": 224364858000, ""ScalerCrop"": ""(0, 0)/9280x6976"", ""LensPosition"": 1.161369, ""AfPauseState"": 0, ""FrameDuration"": 365480, ""Lux"": 32608.193359, ""ExposureTime"": 826, ""AnalogueGain"": 2.164062, ""SensorBlackLevels"": [4096, 4096, 4096, 4096], ""AeLocked"": false, ""DigitalGain"": 1.279711, ""AfState"": 1, ""ColourGains"": [2.055491, 1.272037]}",826,2.164062,1.279711,,183.82857560496328,
+2025-12-05-15-19-03,iter4,/media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-15-19-03_iter4.jpg,131,,,,0,"[0:03:46.653894827] [2473] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.2.0+46-075b54d5
+[0:03:46.661992494] [2476] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:662 [0mlibpisp version v1.0.4 6e3a53d137f4 14-02-2024 (14:00:12)
+[0:03:46.678980086] [2476] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1121 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 to CFE device /dev/media2 and ISP device /dev/media0 using PiSP variant BCM2712_C0
+Mode selection for 4624:3472:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 11359.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 9096
+    SBGGR10_CSI2P,3840x2160/0 - Score: 5359.24
+    SBGGR10_CSI2P,4624x3472/0 - Score: 1000
+    SBGGR10_CSI2P,8000x6000/0 - Score: 2476.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 3024
+Stream configuration adjusted
+[0:03:46.679594253] [2473] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 4624x3472-YUV420 (1) 4624x3472-RGGB16_PISP_COMP1
+[0:03:46.679678697] [2476] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 4624x3472-SRGGB10_1X10 - Selected CFE format: 4624x3472-PC1R
+Mode selection for 9248:6944:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 27551.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 25288
+    SBGGR10_CSI2P,3840x2160/0 - Score: 21551.2
+    SBGGR10_CSI2P,4624x3472/0 - Score: 17192
+    SBGGR10_CSI2P,8000x6000/0 - Score: 5384.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 1000
+Stream configuration adjusted
+[0:03:53.707001878] [2473] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 9248x6944-YUV420 (1) 9248x6944-RGGB16_PISP_COMP1
+[0:03:53.717825767] [2476] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 9248x6944-SRGGB10_1X10 - Selected CFE format: 9248x6944-PC1R
+Still capture image received
+","{""ColourCorrectionMatrix"": [1.707047, -0.287004, -0.420033, -0.239454, 1.875661, -0.636207, -0.080736, -0.620186, 1.700931], ""FocusFoM"": 2682, ""ColourTemperature"": 6439, ""SensorTimestamp"": 236128878000, ""ScalerCrop"": ""(0, 0)/9280x6976"", ""LensPosition"": 1.15084, ""AfPauseState"": 0, ""FrameDuration"": 365480, ""Lux"": 32576.03125, ""ExposureTime"": 826, ""AnalogueGain"": 2.164062, ""SensorBlackLevels"": [4096, 4096, 4096, 4096], ""AeLocked"": false, ""DigitalGain"": 1.277707, ""AfState"": 1, ""ColourGains"": [2.05555, 1.276185]}",826,2.164062,1.277707,,183.6638138318361,
+2025-12-05-15-19-16,iter5,/media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-15-19-16_iter5.jpg,113,,,,0,"[0:03:59.665763171] [2485] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.2.0+46-075b54d5
+[0:03:59.673782412] [2488] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:662 [0mlibpisp version v1.0.4 6e3a53d137f4 14-02-2024 (14:00:12)
+[0:03:59.691064319] [2488] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1121 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 to CFE device /dev/media2 and ISP device /dev/media0 using PiSP variant BCM2712_C0
+Mode selection for 4624:3472:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 11359.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 9096
+    SBGGR10_CSI2P,3840x2160/0 - Score: 5359.24
+    SBGGR10_CSI2P,4624x3472/0 - Score: 1000
+    SBGGR10_CSI2P,8000x6000/0 - Score: 2476.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 3024
+Stream configuration adjusted
+[0:03:59.691673264] [2485] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 4624x3472-YUV420 (1) 4624x3472-RGGB16_PISP_COMP1
+[0:03:59.691757319] [2488] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 4624x3472-SRGGB10_1X10 - Selected CFE format: 4624x3472-PC1R
+Mode selection for 9248:6944:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 27551.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 25288
+    SBGGR10_CSI2P,3840x2160/0 - Score: 21551.2
+    SBGGR10_CSI2P,4624x3472/0 - Score: 17192
+    SBGGR10_CSI2P,8000x6000/0 - Score: 5384.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 1000
+Stream configuration adjusted
+[0:04:06.708760204] [2485] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 9248x6944-YUV420 (1) 9248x6944-RGGB16_PISP_COMP1
+[0:04:06.719648648] [2488] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 9248x6944-SRGGB10_1X10 - Selected CFE format: 9248x6944-PC1R
+Still capture image received
+","{""ColourCorrectionMatrix"": [1.705417, -0.285265, -0.420142, -0.238854, 1.876023, -0.637169, -0.080571, -0.619676, 1.700257], ""FocusFoM"": 2625, ""ColourTemperature"": 6449, ""SensorTimestamp"": 249133306000, ""ScalerCrop"": ""(0, 0)/9280x6976"", ""LensPosition"": 1.152748, ""AfPauseState"": 0, ""FrameDuration"": 365480, ""Lux"": 32491.269531, ""ExposureTime"": 826, ""AnalogueGain"": 2.164062, ""SensorBlackLevels"": [4096, 4096, 4096, 4096], ""AeLocked"": false, ""DigitalGain"": 1.279797, ""AfState"": 1, ""ColourGains"": [2.056149, 1.274586]}",826,2.164062,1.279797,,183.70549409798906,
+2025-12-05-15-19-28,iter6,/media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-15-19-28_iter6.jpg,100,,,,0,"[0:04:11.399767534] [2497] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.2.0+46-075b54d5
+[0:04:11.407888757] [2500] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:662 [0mlibpisp version v1.0.4 6e3a53d137f4 14-02-2024 (14:00:12)
+[0:04:11.425146331] [2500] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1121 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 to CFE device /dev/media2 and ISP device /dev/media0 using PiSP variant BCM2712_C0
+Mode selection for 4624:3472:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 11359.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 9096
+    SBGGR10_CSI2P,3840x2160/0 - Score: 5359.24
+    SBGGR10_CSI2P,4624x3472/0 - Score: 1000
+    SBGGR10_CSI2P,8000x6000/0 - Score: 2476.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 3024
+Stream configuration adjusted
+[0:04:11.425764423] [2497] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 4624x3472-YUV420 (1) 4624x3472-RGGB16_PISP_COMP1
+[0:04:11.425845664] [2500] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 4624x3472-SRGGB10_1X10 - Selected CFE format: 4624x3472-PC1R
+Mode selection for 9248:6944:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 27551.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 25288
+    SBGGR10_CSI2P,3840x2160/0 - Score: 21551.2
+    SBGGR10_CSI2P,4624x3472/0 - Score: 17192
+    SBGGR10_CSI2P,8000x6000/0 - Score: 5384.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 1000
+Stream configuration adjusted
+[0:04:18.451100586] [2497] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 9248x6944-YUV420 (1) 9248x6944-RGGB16_PISP_COMP1
+[0:04:18.461980771] [2500] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 9248x6944-SRGGB10_1X10 - Selected CFE format: 9248x6944-PC1R
+Still capture image received
+","{""ColourCorrectionMatrix"": [1.703473, -0.283191, -0.420273, -0.238139, 1.876455, -0.638317, -0.080375, -0.619068, 1.699453], ""FocusFoM"": 2684, ""ColourTemperature"": 6460, ""SensorTimestamp"": 260873692000, ""ScalerCrop"": ""(0, 0)/9280x6976"", ""LensPosition"": 1.161493, ""AfPauseState"": 0, ""FrameDuration"": 365480, ""Lux"": 32180.519531, ""ExposureTime"": 826, ""AnalogueGain"": 2.179688, ""SensorBlackLevels"": [4096, 4096, 4096, 4096], ""AeLocked"": false, ""DigitalGain"": 1.27868, ""AfState"": 1, ""ColourGains"": [2.05608, 1.272481]}",826,2.179688,1.27868,,183.38654196186894,
+2025-12-05-15-19-40,final(reused),/media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-15-19-40_ex100us_mean183.jpg,100,,,,0,"[0:04:11.399767534] [2497] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.2.0+46-075b54d5
+[0:04:11.407888757] [2500] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:662 [0mlibpisp version v1.0.4 6e3a53d137f4 14-02-2024 (14:00:12)
+[0:04:11.425146331] [2500] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1121 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 to CFE device /dev/media2 and ISP device /dev/media0 using PiSP variant BCM2712_C0
+Mode selection for 4624:3472:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 11359.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 9096
+    SBGGR10_CSI2P,3840x2160/0 - Score: 5359.24
+    SBGGR10_CSI2P,4624x3472/0 - Score: 1000
+    SBGGR10_CSI2P,8000x6000/0 - Score: 2476.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 3024
+Stream configuration adjusted
+[0:04:11.425764423] [2497] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 4624x3472-YUV420 (1) 4624x3472-RGGB16_PISP_COMP1
+[0:04:11.425845664] [2500] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 4624x3472-SRGGB10_1X10 - Selected CFE format: 4624x3472-PC1R
+Mode selection for 9248:6944:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 27551.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 25288
+    SBGGR10_CSI2P,3840x2160/0 - Score: 21551.2
+    SBGGR10_CSI2P,4624x3472/0 - Score: 17192
+    SBGGR10_CSI2P,8000x6000/0 - Score: 5384.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 1000
+Stream configuration adjusted
+[0:04:18.451100586] [2497] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 9248x6944-YUV420 (1) 9248x6944-RGGB16_PISP_COMP1
+[0:04:18.461980771] [2500] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 9248x6944-SRGGB10_1X10 - Selected CFE format: 9248x6944-PC1R
+Still capture image received
+","{""ColourCorrectionMatrix"": [1.703473, -0.283191, -0.420273, -0.238139, 1.876455, -0.638317, -0.080375, -0.619068, 1.699453], ""FocusFoM"": 2684, ""ColourTemperature"": 6460, ""SensorTimestamp"": 260873692000, ""ScalerCrop"": ""(0, 0)/9280x6976"", ""LensPosition"": 1.161493, ""AfPauseState"": 0, ""FrameDuration"": 365480, ""Lux"": 32180.519531, ""ExposureTime"": 826, ""AnalogueGain"": 2.179688, ""SensorBlackLevels"": [4096, 4096, 4096, 4096], ""AeLocked"": false, ""DigitalGain"": 1.27868, ""AfState"": 1, ""ColourGains"": [2.05608, 1.272481]}",826,2.179688,1.27868,,183.38654196186894,Reused from iter6
+2025-12-05-15-52-34,iter1,/media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-15-52-34_iter1.jpg,100,,,,0,"[0:02:49.827100713] [2390] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.2.0+46-075b54d5
+[0:02:49.836384694] [2395] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:662 [0mlibpisp version v1.0.4 6e3a53d137f4 14-02-2024 (14:00:12)
+[0:02:49.865837824] [2395] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1121 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 to CFE device /dev/media1 and ISP device /dev/media0 using PiSP variant BCM2712_C0
+Mode selection for 4624:3472:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 11359.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 9096
+    SBGGR10_CSI2P,3840x2160/0 - Score: 5359.24
+    SBGGR10_CSI2P,4624x3472/0 - Score: 1000
+    SBGGR10_CSI2P,8000x6000/0 - Score: 2476.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 3024
+Stream configuration adjusted
+[0:02:49.866469102] [2390] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 4624x3472-YUV420 (1) 4624x3472-RGGB16_PISP_COMP1
+[0:02:49.866548213] [2395] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 4624x3472-SRGGB10_1X10 - Selected CFE format: 4624x3472-PC1R
+Mode selection for 9248:6944:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 27551.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 25288
+    SBGGR10_CSI2P,3840x2160/0 - Score: 21551.2
+    SBGGR10_CSI2P,4624x3472/0 - Score: 17192
+    SBGGR10_CSI2P,8000x6000/0 - Score: 5384.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 1000
+Stream configuration adjusted
+[0:02:56.897029023] [2390] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 9248x6944-YUV420 (1) 9248x6944-RGGB16_PISP_COMP1
+[0:02:56.907721060] [2395] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 9248x6944-SRGGB10_1X10 - Selected CFE format: 9248x6944-PC1R
+Still capture image received
+","{""ColourCorrectionMatrix"": [1.696859, -0.276133, -0.420716, -0.235705, 1.877926, -0.642221, -0.079707, -0.616999, 1.696715], ""FocusFoM"": 5050, ""ColourTemperature"": 6577, ""SensorTimestamp"": 179311048000, ""ScalerCrop"": ""(0, 0)/9280x6976"", ""LensPosition"": 0.058275, ""AfPauseState"": 0, ""FrameDuration"": 365480, ""Lux"": 21938.333984, ""ExposureTime"": 826, ""AnalogueGain"": 2.90625, ""SensorBlackLevels"": [4096, 4096, 4096, 4096], ""AeLocked"": false, ""DigitalGain"": 1.280021, ""AfState"": 1, ""ColourGains"": [2.078199, 1.257239]}",826,2.90625,1.280021,,174.54620616999765,
+2025-12-05-15-52-46,final(reused),/media/pi/USB DISK/winter_images_data/rpicam_2025-12-05-15-52-46_ex100us_mean175.jpg,100,,,,0,"[0:02:49.827100713] [2390] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:284 [0mlibcamera v0.2.0+46-075b54d5
+[0:02:49.836384694] [2395] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:662 [0mlibpisp version v1.0.4 6e3a53d137f4 14-02-2024 (14:00:12)
+[0:02:49.865837824] [2395] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1121 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 to CFE device /dev/media1 and ISP device /dev/media0 using PiSP variant BCM2712_C0
+Mode selection for 4624:3472:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 11359.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 9096
+    SBGGR10_CSI2P,3840x2160/0 - Score: 5359.24
+    SBGGR10_CSI2P,4624x3472/0 - Score: 1000
+    SBGGR10_CSI2P,8000x6000/0 - Score: 2476.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 3024
+Stream configuration adjusted
+[0:02:49.866469102] [2390] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 4624x3472-YUV420 (1) 4624x3472-RGGB16_PISP_COMP1
+[0:02:49.866548213] [2395] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 4624x3472-SRGGB10_1X10 - Selected CFE format: 4624x3472-PC1R
+Mode selection for 9248:6944:12:P
+    SBGGR10_CSI2P,1920x1080/0 - Score: 27551.2
+    SBGGR10_CSI2P,2312x1736/0 - Score: 25288
+    SBGGR10_CSI2P,3840x2160/0 - Score: 21551.2
+    SBGGR10_CSI2P,4624x3472/0 - Score: 17192
+    SBGGR10_CSI2P,8000x6000/0 - Score: 5384.58
+    SBGGR10_CSI2P,9248x6944/0 - Score: 1000
+Stream configuration adjusted
+[0:02:56.897029023] [2390] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 9248x6944-YUV420 (1) 9248x6944-RGGB16_PISP_COMP1
+[0:02:56.907721060] [2395] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1405 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/ov64a40@36 - Selected sensor format: 9248x6944-SRGGB10_1X10 - Selected CFE format: 9248x6944-PC1R
+Still capture image received
+","{""ColourCorrectionMatrix"": [1.696859, -0.276133, -0.420716, -0.235705, 1.877926, -0.642221, -0.079707, -0.616999, 1.696715], ""FocusFoM"": 5050, ""ColourTemperature"": 6577, ""SensorTimestamp"": 179311048000, ""ScalerCrop"": ""(0, 0)/9280x6976"", ""LensPosition"": 0.058275, ""AfPauseState"": 0, ""FrameDuration"": 365480, ""Lux"": 21938.333984, ""ExposureTime"": 826, ""AnalogueGain"": 2.90625, ""SensorBlackLevels"": [4096, 4096, 4096, 4096], ""AeLocked"": false, ""DigitalGain"": 1.280021, ""AfState"": 1, ""ColourGains"": [2.078199, 1.257239]}",826,2.90625,1.280021,,174.54620616999765,Reused from iter1

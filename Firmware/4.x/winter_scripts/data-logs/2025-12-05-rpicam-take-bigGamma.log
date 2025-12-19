@@ -1,0 +1,356 @@
+2025-12-04-17-00-01 iter1 exposure_us=9691 mean=155.87295728968178 returncode=0
+2025-12-04-17-00-01 iter1 factor=1.404 new_exposure=13603
+2025-12-04-17-00-16 iter2 exposure_us=13603 mean=156.32644841692013 returncode=0
+2025-12-04-17-00-16 iter2 factor=1.377 new_exposure=18731
+2025-12-04-17-00-27 iter3 exposure_us=18731 mean=158.58418643637484 returncode=0
+2025-12-04-17-00-27 iter3 factor=1.262 new_exposure=23643
+2025-12-04-17-00-39 iter4 exposure_us=23643 mean=171.2624676820147 returncode=0
+2025-12-04-17-00-53 final reuse exposure_us=23643 mean=171.2624676820147
+Iteration 1: running shutter 9691us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 9691 --nopreview 1 -t 5009ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-04-17-00-01_iter1.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 9691 -> 13603 (factor 1.404)
+Iteration 2: running shutter 13603us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 13603 --nopreview 1 -t 5013ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-04-17-00-16_iter2.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 13603 -> 18731 (factor 1.377)
+Iteration 3: running shutter 18731us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 18731 --nopreview 1 -t 5018ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-04-17-00-27_iter3.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 18731 -> 23643 (factor 1.262)
+Iteration 4: running shutter 23643us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 23643 --nopreview 1 -t 5023ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-04-17-00-39_iter4.jpg --quality 95 --metadata - --metadata-format json
+Mean brightness 171.2624676820147 within tolerance 5.0% of target 170.0 -> reusing image
+Capture complete. Final exposure (us): 23643
+2025-12-04-17-30-01 iter1 exposure_us=23643 mean=97.45996400517038 returncode=0
+2025-12-04-17-30-01 iter1 factor=12.226 new_exposure=289071
+2025-12-04-17-30-15 iter2 exposure_us=289071 mean=160.72914071344857 returncode=0
+2025-12-04-17-30-15 iter2 factor=1.177 new_exposure=340286
+2025-12-04-17-30-27 iter3 exposure_us=340286 mean=160.74610457249196 returncode=0
+2025-12-04-17-30-27 iter3 factor=1.177 new_exposure=400374
+2025-12-04-17-30-42 iter4 exposure_us=400374 mean=158.8833211882654 returncode=0
+2025-12-04-17-30-42 iter4 factor=1.249 new_exposure=500101
+2025-12-04-17-30-54 iter5 exposure_us=500101 mean=159.61904203910572 returncode=0
+2025-12-04-17-30-54 iter5 factor=1.219 new_exposure=609405
+2025-12-04-17-31-09 final exposure_us=609405 mean=160.45068480057463 returncode=0
+Iteration 1: running shutter 23643us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 23643 --nopreview 1 -t 5023ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-04-17-30-01_iter1.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 23643 -> 289071 (factor 12.226)
+Iteration 2: running shutter 289071us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 289071 --nopreview 1 -t 5289ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-04-17-30-15_iter2.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 289071 -> 340286 (factor 1.177)
+Iteration 3: running shutter 340286us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 340286 --nopreview 1 -t 5340ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-04-17-30-27_iter3.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 340286 -> 400374 (factor 1.177)
+Iteration 4: running shutter 400374us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 400374 --nopreview 1 -t 5400ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-04-17-30-42_iter4.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 400374 -> 500101 (factor 1.249)
+Iteration 5: running shutter 500101us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 500101 --nopreview 1 -t 5500ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-04-17-30-54_iter5.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 500101 -> 609405 (factor 1.219)
+Final capture attempt 1: rpicam-still --camera 0 --width 9248 --height 6944 --shutter 609405 --nopreview 1 -t 5609ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-04-17-31-09_ex609405us.jpg --quality 95 --metadata - --metadata-format json
+Capture complete. Final exposure (us): 609405
+2025-12-04-18-00-01 iter1 exposure_us=609405 mean=18.38312801846308 returncode=0
+2025-12-04-18-00-01 iter1 factor=20.000 new_exposure=12188100
+2025-12-04-18-00-14 iter2 exposure_us=12188100 mean=50.595489867406876 returncode=0
+2025-12-04-18-00-14 iter2 factor=20.000 new_exposure=240000000
+2025-12-04-18-01-04 final exposure_us=240000000 mean=234.03280099545748 returncode=0
+Iteration 1: running shutter 609405us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 609405 --nopreview 1 -t 5609ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-04-18-00-01_iter1.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 609405 -> 12188100 (factor 20.000)
+Iteration 2: running shutter 12188100us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 12188100 --nopreview 1 -t 17188ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-04-18-00-14_iter2.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 12188100 -> 240000000 (factor 20.000)
+Reached MaxExposure without achieving target brightness; stopping loop early
+Final capture attempt 1: rpicam-still --camera 0 --width 9248 --height 6944 --shutter 240000000 --nopreview 1 -t 245000ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-04-18-01-04_ex240000000us.jpg --quality 95 --metadata - --metadata-format json
+Capture complete. Final exposure (us): 240000000
+2025-12-04-18-30-01 iter1 exposure_us=240000000 mean=228.4760868086561 returncode=0
+2025-12-04-18-30-01 iter1 factor=0.264 new_exposure=63452393
+2025-12-04-18-42-14 iter2 exposure_us=63452393 mean=140.51693526897833 returncode=0
+2025-12-04-18-42-14 iter2 factor=1.250 new_exposure=79315491
+2025-12-04-18-45-36 iter3 exposure_us=79315491 mean=159.5043646409287 returncode=0
+2025-12-04-18-45-36 iter3 factor=1.223 new_exposure=97015082
+2025-12-04-18-49-47 iter4 exposure_us=97015082 mean=167.15980773461544 returncode=0
+2025-12-04-18-54-49 final reuse exposure_us=97015082 mean=167.15980773461544
+Iteration 1: running shutter 240000000us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 240000000 --nopreview 1 -t 245000ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-04-18-30-01_iter1.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 240000000 -> 63452393 (factor 0.264)
+Iteration 2: running shutter 63452393us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 63452393 --nopreview 1 -t 68452ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-04-18-42-14_iter2.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 63452393 -> 79315491 (factor 1.250)
+Iteration 3: running shutter 79315491us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 79315491 --nopreview 1 -t 84315ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-04-18-45-36_iter3.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 79315491 -> 97015082 (factor 1.223)
+Iteration 4: running shutter 97015082us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 97015082 --nopreview 1 -t 102015ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-04-18-49-47_iter4.jpg --quality 95 --metadata - --metadata-format json
+Mean brightness 167.15980773461544 within tolerance 5.0% of target 170.0 -> reusing image
+Capture complete. Final exposure (us): 97015082
+2025-12-04-19-00-01 iter1 exposure_us=97015082 mean=171.00350844945427 returncode=0
+2025-12-04-19-05-05 final reuse exposure_us=97015082 mean=171.00350844945427
+Iteration 1: running shutter 97015082us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 97015082 --nopreview 1 -t 102015ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-04-19-00-01_iter1.jpg --quality 95 --metadata - --metadata-format json
+Mean brightness 171.00350844945427 within tolerance 5.0% of target 170.0 -> reusing image
+Capture complete. Final exposure (us): 97015082
+2025-12-04-19-30-01 iter1 exposure_us=97015082 mean=187.9265508771108 returncode=0
+2025-12-04-19-30-01 iter1 factor=0.637 new_exposure=61789226
+2025-12-04-19-35-04 iter2 exposure_us=61789226 mean=141.2457088897288 returncode=0
+2025-12-04-19-35-04 iter2 factor=1.250 new_exposure=77236532
+2025-12-04-19-38-23 iter3 exposure_us=77236532 mean=166.6427849669576 returncode=0
+2025-12-04-19-42-26 final reuse exposure_us=77236532 mean=166.6427849669576
+Iteration 1: running shutter 97015082us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 97015082 --nopreview 1 -t 102015ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-04-19-30-01_iter1.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 97015082 -> 61789226 (factor 0.637)
+Iteration 2: running shutter 61789226us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 61789226 --nopreview 1 -t 66789ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-04-19-35-04_iter2.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 61789226 -> 77236532 (factor 1.250)
+Iteration 3: running shutter 77236532us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 77236532 --nopreview 1 -t 82236ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-04-19-38-23_iter3.jpg --quality 95 --metadata - --metadata-format json
+Mean brightness 166.6427849669576 within tolerance 5.0% of target 170.0 -> reusing image
+Capture complete. Final exposure (us): 77236532
+2025-12-04-20-00-01 iter1 exposure_us=77236532 mean=157.93681002331553 returncode=0
+2025-12-04-20-00-01 iter1 factor=1.292 new_exposure=99810889
+2025-12-04-20-04-07 iter2 exposure_us=99810889 mean=165.69392972811158 returncode=0
+2025-12-04-20-09-18 final reuse exposure_us=99810889 mean=165.69392972811158
+Iteration 1: running shutter 77236532us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 77236532 --nopreview 1 -t 82236ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-04-20-00-01_iter1.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 77236532 -> 99810889 (factor 1.292)
+Iteration 2: running shutter 99810889us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 99810889 --nopreview 1 -t 104810ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-04-20-04-07_iter2.jpg --quality 95 --metadata - --metadata-format json
+Mean brightness 165.69392972811158 within tolerance 5.0% of target 170.0 -> reusing image
+Capture complete. Final exposure (us): 99810889
+2025-12-04-20-30-01 iter1 exposure_us=99810889 mean=150.59900828289688 returncode=0
+2025-12-04-20-30-01 iter1 factor=1.725 new_exposure=172186289
+2025-12-04-20-35-14 iter2 exposure_us=172186289 mean=201.42519448407327 returncode=0
+2025-12-04-20-35-14 iter2 factor=0.750 new_exposure=129139717
+2025-12-04-20-44-02 iter3 exposure_us=129139717 mean=183.33465986978877 returncode=0
+2025-12-04-20-44-02 iter3 factor=0.754 new_exposure=97325788
+2025-12-04-20-50-43 iter4 exposure_us=97325788 mean=157.65180656510114 returncode=0
+2025-12-04-20-50-43 iter4 factor=1.250 new_exposure=121657235
+2025-12-04-20-55-48 iter5 exposure_us=121657235 mean=184.8291219461575 returncode=0
+2025-12-04-20-55-48 iter5 factor=0.750 new_exposure=91242926
+2025-12-04-21-02-04 final exposure_us=91242926 mean=164.33015899003695 returncode=0
+Iteration 1: running shutter 99810889us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 99810889 --nopreview 1 -t 104810ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-04-20-30-01_iter1.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 99810889 -> 172186289 (factor 1.725)
+Iteration 2: running shutter 172186289us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 172186289 --nopreview 1 -t 177186ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-04-20-35-14_iter2.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 172186289 -> 129139717 (factor 0.750)
+Iteration 3: running shutter 129139717us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 129139717 --nopreview 1 -t 134139ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-04-20-44-02_iter3.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 129139717 -> 97325788 (factor 0.754)
+Iteration 4: running shutter 97325788us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 97325788 --nopreview 1 -t 102325ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-04-20-50-43_iter4.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 97325788 -> 121657235 (factor 1.250)
+Iteration 5: running shutter 121657235us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 121657235 --nopreview 1 -t 126657ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-04-20-55-48_iter5.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 121657235 -> 91242926 (factor 0.750)
+Final capture attempt 1: rpicam-still --camera 0 --width 9248 --height 6944 --shutter 91242926 --nopreview 1 -t 96242ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-04-21-02-04_ex91242926us.jpg --quality 95 --metadata - --metadata-format json
+Capture complete. Final exposure (us): 91242926
+2025-12-04-21-30-01 iter1 exposure_us=91242926 mean=160.21407698812448 returncode=0
+2025-12-04-21-30-01 iter1 factor=1.196 new_exposure=109099738
+2025-12-04-21-34-46 iter2 exposure_us=109099738 mean=172.85318047033212 returncode=0
+2025-12-04-21-40-27 final reuse exposure_us=109099738 mean=172.85318047033212
+Iteration 1: running shutter 91242926us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 91242926 --nopreview 1 -t 96242ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-04-21-30-01_iter1.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 91242926 -> 109099738 (factor 1.196)
+Iteration 2: running shutter 109099738us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 109099738 --nopreview 1 -t 114099ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-04-21-34-46_iter2.jpg --quality 95 --metadata - --metadata-format json
+Mean brightness 172.85318047033212 within tolerance 5.0% of target 170.0 -> reusing image
+Capture complete. Final exposure (us): 109099738
+2025-12-04-22-00-01 iter1 exposure_us=109099738 mean=189.242758211266 returncode=0
+2025-12-04-22-00-01 iter1 factor=0.617 new_exposure=67337524
+2025-12-04-22-05-40 iter2 exposure_us=67337524 mean=155.0873980381111 returncode=0
+2025-12-04-22-05-40 iter2 factor=1.250 new_exposure=84171905
+2025-12-04-22-09-15 iter3 exposure_us=84171905 mean=170.4807712659008 returncode=0
+2025-12-04-22-13-39 final reuse exposure_us=84171905 mean=170.4807712659008
+Iteration 1: running shutter 109099738us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 109099738 --nopreview 1 -t 114099ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-04-22-00-01_iter1.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 109099738 -> 67337524 (factor 0.617)
+Iteration 2: running shutter 67337524us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 67337524 --nopreview 1 -t 72337ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-04-22-05-40_iter2.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 67337524 -> 84171905 (factor 1.250)
+Iteration 3: running shutter 84171905us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 84171905 --nopreview 1 -t 89171ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-04-22-09-15_iter3.jpg --quality 95 --metadata - --metadata-format json
+Mean brightness 170.4807712659008 within tolerance 5.0% of target 170.0 -> reusing image
+Capture complete. Final exposure (us): 84171905
+2025-12-04-22-30-02 iter1 exposure_us=84171905 mean=163.08125623500112 returncode=0
+2025-12-04-22-34-27 final reuse exposure_us=84171905 mean=163.08125623500112
+Iteration 1: running shutter 84171905us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 84171905 --nopreview 1 -t 89171ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-04-22-30-02_iter1.jpg --quality 95 --metadata - --metadata-format json
+Mean brightness 163.08125623500112 within tolerance 5.0% of target 170.0 -> reusing image
+Capture complete. Final exposure (us): 84171905
+2025-12-04-23-00-01 iter1 exposure_us=84171905 mean=170.88076841935185 returncode=0
+2025-12-04-23-04-25 final reuse exposure_us=84171905 mean=170.88076841935185
+Iteration 1: running shutter 84171905us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 84171905 --nopreview 1 -t 89171ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-04-23-00-01_iter1.jpg --quality 95 --metadata - --metadata-format json
+Mean brightness 170.88076841935185 within tolerance 5.0% of target 170.0 -> reusing image
+Capture complete. Final exposure (us): 84171905
+2025-12-04-23-30-01 iter1 exposure_us=84171905 mean=157.32171962638827 returncode=0
+2025-12-04-23-30-01 iter1 factor=1.323 new_exposure=111349557
+2025-12-04-23-34-27 iter2 exposure_us=111349557 mean=177.05460950019832 returncode=0
+2025-12-04-23-40-12 final reuse exposure_us=111349557 mean=177.05460950019832
+Iteration 1: running shutter 84171905us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 84171905 --nopreview 1 -t 89171ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-04-23-30-01_iter1.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 84171905 -> 111349557 (factor 1.323)
+Iteration 2: running shutter 111349557us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 111349557 --nopreview 1 -t 116349ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-04-23-34-27_iter2.jpg --quality 95 --metadata - --metadata-format json
+Mean brightness 177.05460950019832 within tolerance 5.0% of target 170.0 -> reusing image
+Capture complete. Final exposure (us): 111349557
+2025-12-05-00-00-01 iter1 exposure_us=111349557 mean=162.5134770390011 returncode=0
+2025-12-05-00-05-48 final reuse exposure_us=111349557 mean=162.5134770390011
+Iteration 1: running shutter 111349557us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 111349557 --nopreview 1 -t 116349ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-05-00-00-01_iter1.jpg --quality 95 --metadata - --metadata-format json
+Mean brightness 162.5134770390011 within tolerance 5.0% of target 170.0 -> reusing image
+Capture complete. Final exposure (us): 111349557
+2025-12-05-00-30-01 iter1 exposure_us=111349557 mean=164.74679260268505 returncode=0
+2025-12-05-00-35-47 final reuse exposure_us=111349557 mean=164.74679260268505
+Iteration 1: running shutter 111349557us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 111349557 --nopreview 1 -t 116349ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-05-00-30-01_iter1.jpg --quality 95 --metadata - --metadata-format json
+Mean brightness 164.74679260268505 within tolerance 5.0% of target 170.0 -> reusing image
+Capture complete. Final exposure (us): 111349557
+2025-12-05-01-00-01 iter1 exposure_us=111349557 mean=162.23215476966996 returncode=0
+2025-12-05-01-05-49 final reuse exposure_us=111349557 mean=162.23215476966996
+Iteration 1: running shutter 111349557us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 111349557 --nopreview 1 -t 116349ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-05-01-00-01_iter1.jpg --quality 95 --metadata - --metadata-format json
+Mean brightness 162.23215476966996 within tolerance 5.0% of target 170.0 -> reusing image
+Capture complete. Final exposure (us): 111349557
+2025-12-05-01-30-01 iter1 exposure_us=111349557 mean=157.96122263762598 returncode=0
+2025-12-05-01-30-01 iter1 factor=1.291 new_exposure=143763782
+2025-12-05-01-35-46 iter2 exposure_us=143763782 mean=174.6741885684836 returncode=0
+2025-12-05-01-43-11 final reuse exposure_us=143763782 mean=174.6741885684836
+Iteration 1: running shutter 111349557us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 111349557 --nopreview 1 -t 116349ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-05-01-30-01_iter1.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 111349557 -> 143763782 (factor 1.291)
+Iteration 2: running shutter 143763782us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 143763782 --nopreview 1 -t 148763ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-05-01-35-46_iter2.jpg --quality 95 --metadata - --metadata-format json
+Mean brightness 174.6741885684836 within tolerance 5.0% of target 170.0 -> reusing image
+Capture complete. Final exposure (us): 143763782
+2025-12-05-02-00-01 iter1 exposure_us=143763782 mean=175.37820431407263 returncode=0
+2025-12-05-02-07-24 final reuse exposure_us=143763782 mean=175.37820431407263
+Iteration 1: running shutter 143763782us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 143763782 --nopreview 1 -t 148763ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-05-02-00-01_iter1.jpg --quality 95 --metadata - --metadata-format json
+Mean brightness 175.37820431407263 within tolerance 5.0% of target 170.0 -> reusing image
+Capture complete. Final exposure (us): 143763782
+2025-12-05-02-30-01 iter1 exposure_us=143763782 mean=174.8883673503201 returncode=0
+2025-12-05-02-37-26 final reuse exposure_us=143763782 mean=174.8883673503201
+Iteration 1: running shutter 143763782us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 143763782 --nopreview 1 -t 148763ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-05-02-30-01_iter1.jpg --quality 95 --metadata - --metadata-format json
+Mean brightness 174.8883673503201 within tolerance 5.0% of target 170.0 -> reusing image
+Capture complete. Final exposure (us): 143763782
+2025-12-05-03-00-01 iter1 exposure_us=143763782 mean=176.20639708311575 returncode=0
+2025-12-05-03-07-24 final reuse exposure_us=143763782 mean=176.20639708311575
+Iteration 1: running shutter 143763782us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 143763782 --nopreview 1 -t 148763ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-05-03-00-01_iter1.jpg --quality 95 --metadata - --metadata-format json
+Mean brightness 176.20639708311575 within tolerance 5.0% of target 170.0 -> reusing image
+Capture complete. Final exposure (us): 143763782
+2025-12-05-03-30-01 iter1 exposure_us=143763782 mean=174.2922331319862 returncode=0
+2025-12-05-03-37-26 final reuse exposure_us=143763782 mean=174.2922331319862
+Iteration 1: running shutter 143763782us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 143763782 --nopreview 1 -t 148763ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-05-03-30-01_iter1.jpg --quality 95 --metadata - --metadata-format json
+Mean brightness 174.2922331319862 within tolerance 5.0% of target 170.0 -> reusing image
+Capture complete. Final exposure (us): 143763782
+2025-12-05-04-00-01 iter1 exposure_us=143763782 mean=171.5108510820125 returncode=0
+2025-12-05-04-07-24 final reuse exposure_us=143763782 mean=171.5108510820125
+Iteration 1: running shutter 143763782us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 143763782 --nopreview 1 -t 148763ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-05-04-00-01_iter1.jpg --quality 95 --metadata - --metadata-format json
+Mean brightness 171.5108510820125 within tolerance 5.0% of target 170.0 -> reusing image
+Capture complete. Final exposure (us): 143763782
+2025-12-05-04-30-01 iter1 exposure_us=143763782 mean=164.06857121554742 returncode=0
+2025-12-05-04-37-26 final reuse exposure_us=143763782 mean=164.06857121554742
+Iteration 1: running shutter 143763782us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 143763782 --nopreview 1 -t 148763ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-05-04-30-01_iter1.jpg --quality 95 --metadata - --metadata-format json
+Mean brightness 164.06857121554742 within tolerance 5.0% of target 170.0 -> reusing image
+Capture complete. Final exposure (us): 143763782
+2025-12-05-05-00-01 iter1 exposure_us=143763782 mean=166.80386195408548 returncode=0
+2025-12-05-05-07-24 final reuse exposure_us=143763782 mean=166.80386195408548
+Iteration 1: running shutter 143763782us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 143763782 --nopreview 1 -t 148763ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-05-05-00-01_iter1.jpg --quality 95 --metadata - --metadata-format json
+Mean brightness 166.80386195408548 within tolerance 5.0% of target 170.0 -> reusing image
+Capture complete. Final exposure (us): 143763782
+2025-12-05-05-30-01 iter1 exposure_us=143763782 mean=144.82369786891275 returncode=0
+2025-12-05-05-30-01 iter1 factor=2.057 new_exposure=240000000
+2025-12-05-05-37-26 final exposure_us=240000000 mean=177.55924940614884 returncode=0
+Iteration 1: running shutter 143763782us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 143763782 --nopreview 1 -t 148763ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-05-05-30-01_iter1.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 143763782 -> 240000000 (factor 2.057)
+Reached MaxExposure without achieving target brightness; stopping loop early
+Final capture attempt 1: rpicam-still --camera 0 --width 9248 --height 6944 --shutter 240000000 --nopreview 1 -t 245000ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-05-05-37-26_ex240000000us.jpg --quality 95 --metadata - --metadata-format json
+Capture complete. Final exposure (us): 240000000
+2025-12-05-06-00-01 iter1 exposure_us=240000000 mean=171.05406428018313 returncode=0
+2025-12-05-06-12-14 final reuse exposure_us=240000000 mean=171.05406428018313
+Iteration 1: running shutter 240000000us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 240000000 --nopreview 1 -t 245000ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-05-06-00-01_iter1.jpg --quality 95 --metadata - --metadata-format json
+Mean brightness 171.05406428018313 within tolerance 5.0% of target 170.0 -> reusing image
+Capture complete. Final exposure (us): 240000000
+2025-12-05-06-30-01 iter1 exposure_us=240000000 mean=169.33191849364866 returncode=0
+2025-12-05-06-42-12 final reuse exposure_us=240000000 mean=169.33191849364866
+Iteration 1: running shutter 240000000us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 240000000 --nopreview 1 -t 245000ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-05-06-30-01_iter1.jpg --quality 95 --metadata - --metadata-format json
+Mean brightness 169.33191849364866 within tolerance 5.0% of target 170.0 -> reusing image
+Capture complete. Final exposure (us): 240000000
+2025-12-05-07-00-01 iter1 exposure_us=240000000 mean=224.95512976152273 returncode=0
+2025-12-05-07-00-01 iter1 factor=0.284 new_exposure=68045566
+2025-12-05-07-12-15 iter2 exposure_us=68045566 mean=187.1622111064243 returncode=0
+2025-12-05-07-12-15 iter2 factor=0.649 new_exposure=44140599
+2025-12-05-07-15-50 iter3 exposure_us=44140599 mean=181.30669654380372 returncode=0
+2025-12-05-07-15-50 iter3 factor=0.807 new_exposure=35626665
+2025-12-05-07-18-16 iter4 exposure_us=35626665 mean=189.0426629172779 returncode=0
+2025-12-05-07-18-16 iter4 factor=0.620 new_exposure=22094089
+2025-12-05-07-20-14 iter5 exposure_us=22094089 mean=174.35732500201811 returncode=0
+2025-12-05-07-21-32 final reuse exposure_us=22094089 mean=174.35732500201811
+Iteration 1: running shutter 240000000us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 240000000 --nopreview 1 -t 245000ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-05-07-00-01_iter1.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 240000000 -> 68045566 (factor 0.284)
+Iteration 2: running shutter 68045566us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 68045566 --nopreview 1 -t 73045ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-05-07-12-15_iter2.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 68045566 -> 44140599 (factor 0.649)
+Iteration 3: running shutter 44140599us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 44140599 --nopreview 1 -t 49140ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-05-07-15-50_iter3.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 44140599 -> 35626665 (factor 0.807)
+Iteration 4: running shutter 35626665us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 35626665 --nopreview 1 -t 40626ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-05-07-18-16_iter4.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 35626665 -> 22094089 (factor 0.620)
+Iteration 5: running shutter 22094089us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 22094089 --nopreview 1 -t 27094ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-05-07-20-14_iter5.jpg --quality 95 --metadata - --metadata-format json
+Mean brightness 174.35732500201811 within tolerance 5.0% of target 170.0 -> reusing image
+Capture complete. Final exposure (us): 22094089
+2025-12-05-07-30-01 iter1 exposure_us=22094089 mean=251.3488675437858 returncode=0
+2025-12-05-07-30-01 iter1 factor=0.172 new_exposure=3802332
+2025-12-05-07-31-19 iter2 exposure_us=3802332 mean=200.52634309772296 returncode=0
+2025-12-05-07-31-19 iter2 factor=0.476 new_exposure=1808418
+2025-12-05-07-31-42 iter3 exposure_us=1808418 mean=156.3616549019691 returncode=0
+2025-12-05-07-31-42 iter3 factor=1.250 new_exposure=2260522
+2025-12-05-07-31-59 iter4 exposure_us=2260522 mean=176.30826493310798 returncode=0
+2025-12-05-07-32-19 final reuse exposure_us=2260522 mean=176.30826493310798
+Iteration 1: running shutter 22094089us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 22094089 --nopreview 1 -t 27094ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-05-07-30-01_iter1.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 22094089 -> 3802332 (factor 0.172)
+Iteration 2: running shutter 3802332us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 3802332 --nopreview 1 -t 8802ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-05-07-31-19_iter2.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 3802332 -> 1808418 (factor 0.476)
+Iteration 3: running shutter 1808418us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 1808418 --nopreview 1 -t 6808ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-05-07-31-42_iter3.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 1808418 -> 2260522 (factor 1.250)
+Iteration 4: running shutter 2260522us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 2260522 --nopreview 1 -t 7260ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-05-07-31-59_iter4.jpg --quality 95 --metadata - --metadata-format json
+Mean brightness 176.30826493310798 within tolerance 5.0% of target 170.0 -> reusing image
+Capture complete. Final exposure (us): 2260522
+2025-12-05-08-00-02 iter1 exposure_us=2260522 mean=252.96161164003078 returncode=0
+2025-12-05-08-00-02 iter1 factor=0.167 new_exposure=377992
+2025-12-05-08-00-19 iter2 exposure_us=377992 mean=252.118842204517 returncode=0
+2025-12-05-08-00-19 iter2 factor=0.170 new_exposure=64162
+2025-12-05-08-00-31 iter3 exposure_us=64162 mean=217.71279135394076 returncode=0
+2025-12-05-08-00-31 iter3 factor=0.329 new_exposure=21078
+2025-12-05-08-00-43 iter4 exposure_us=21078 mean=157.9345072928958 returncode=0
+2025-12-05-08-00-43 iter4 factor=1.250 new_exposure=26348
+2025-12-05-08-00-57 iter5 exposure_us=26348 mean=169.07014563118892 returncode=0
+2025-12-05-08-01-09 final reuse exposure_us=26348 mean=169.07014563118892
+Iteration 1: running shutter 2260522us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 2260522 --nopreview 1 -t 7260ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-05-08-00-02_iter1.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 2260522 -> 377992 (factor 0.167)
+Iteration 2: running shutter 377992us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 377992 --nopreview 1 -t 5377ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-05-08-00-19_iter2.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 377992 -> 64162 (factor 0.170)
+Iteration 3: running shutter 64162us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 64162 --nopreview 1 -t 5064ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-05-08-00-31_iter3.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 64162 -> 21078 (factor 0.329)
+Iteration 4: running shutter 21078us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 21078 --nopreview 1 -t 5021ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-05-08-00-43_iter4.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 21078 -> 26348 (factor 1.250)
+Iteration 5: running shutter 26348us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 26348 --nopreview 1 -t 5026ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-05-08-00-57_iter5.jpg --quality 95 --metadata - --metadata-format json
+Mean brightness 169.07014563118892 within tolerance 5.0% of target 170.0 -> reusing image
+Capture complete. Final exposure (us): 26348
+2025-12-05-08-30-01 iter1 exposure_us=26348 mean=205.28512633632081 returncode=0
+2025-12-05-08-30-01 iter1 factor=0.428 new_exposure=11276
+2025-12-05-08-30-14 iter2 exposure_us=11276 mean=164.55800703078907 returncode=0
+2025-12-05-08-30-26 final reuse exposure_us=11276 mean=164.55800703078907
+Iteration 1: running shutter 26348us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 26348 --nopreview 1 -t 5026ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-05-08-30-01_iter1.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 26348 -> 11276 (factor 0.428)
+Iteration 2: running shutter 11276us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 11276 --nopreview 1 -t 5011ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-05-08-30-14_iter2.jpg --quality 95 --metadata - --metadata-format json
+Mean brightness 164.55800703078907 within tolerance 5.0% of target 170.0 -> reusing image
+Capture complete. Final exposure (us): 11276
+2025-12-05-09-00-01 iter1 exposure_us=11276 mean=216.3512601398185 returncode=0
+2025-12-05-09-00-01 iter1 factor=0.338 new_exposure=3810
+2025-12-05-09-00-13 iter2 exposure_us=3810 mean=172.9872237913192 returncode=0
+2025-12-05-09-00-27 final reuse exposure_us=3810 mean=172.9872237913192
+Iteration 1: running shutter 11276us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 11276 --nopreview 1 -t 5011ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-05-09-00-01_iter1.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 11276 -> 3810 (factor 0.338)
+Iteration 2: running shutter 3810us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 3810 --nopreview 1 -t 5003ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-05-09-00-13_iter2.jpg --quality 95 --metadata - --metadata-format json
+Mean brightness 172.9872237913192 within tolerance 5.0% of target 170.0 -> reusing image
+Capture complete. Final exposure (us): 3810
+2025-12-05-09-30-01 iter1 exposure_us=3810 mean=187.977693567198 returncode=0
+2025-12-05-09-30-01 iter1 factor=0.636 new_exposure=2424
+2025-12-05-09-30-13 iter2 exposure_us=2424 mean=165.61042721094012 returncode=0
+2025-12-05-09-30-27 final reuse exposure_us=2424 mean=165.61042721094012
+Iteration 1: running shutter 3810us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 3810 --nopreview 1 -t 5003ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-05-09-30-01_iter1.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 3810 -> 2424 (factor 0.636)
+Iteration 2: running shutter 2424us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 2424 --nopreview 1 -t 5002ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-05-09-30-13_iter2.jpg --quality 95 --metadata - --metadata-format json
+Mean brightness 165.61042721094012 within tolerance 5.0% of target 170.0 -> reusing image
+Capture complete. Final exposure (us): 2424
+2025-12-05-10-00-01 iter1 exposure_us=2424 mean=172.10463980940455 returncode=0
+2025-12-05-10-00-13 final reuse exposure_us=2424 mean=172.10463980940455
+Iteration 1: running shutter 2424us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 2424 --nopreview 1 -t 5002ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-05-10-00-01_iter1.jpg --quality 95 --metadata - --metadata-format json
+Mean brightness 172.10463980940455 within tolerance 5.0% of target 170.0 -> reusing image
+Capture complete. Final exposure (us): 2424
+2025-12-05-10-30-01 iter1 exposure_us=2424 mean=189.05351524504488 returncode=0
+2025-12-05-10-30-01 iter1 factor=0.620 new_exposure=1503
+2025-12-05-10-30-15 iter2 exposure_us=1503 mean=180.13741332040405 returncode=0
+2025-12-05-10-30-15 iter2 factor=0.836 new_exposure=1257
+2025-12-05-10-30-27 iter3 exposure_us=1257 mean=178.40720220800014 returncode=0
+2025-12-05-10-30-41 final reuse exposure_us=1257 mean=178.40720220800014
+Iteration 1: running shutter 2424us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 2424 --nopreview 1 -t 5002ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-05-10-30-01_iter1.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 2424 -> 1503 (factor 0.620)
+Iteration 2: running shutter 1503us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 1503 --nopreview 1 -t 5001ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-05-10-30-15_iter2.jpg --quality 95 --metadata - --metadata-format json
+Adjusting exposure: 1503 -> 1257 (factor 0.836)
+Iteration 3: running shutter 1257us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 1257 --nopreview 1 -t 5001ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-05-10-30-27_iter3.jpg --quality 95 --metadata - --metadata-format json
+Mean brightness 178.40720220800014 within tolerance 5.0% of target 170.0 -> reusing image
+Capture complete. Final exposure (us): 1257
+2025-12-05-11-00-01 iter1 exposure_us=1257 mean=175.49524786714377 returncode=0
+2025-12-05-11-00-13 final reuse exposure_us=1257 mean=175.49524786714377
+Iteration 1: running shutter 1257us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 1257 --nopreview 1 -t 5001ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-05-11-00-01_iter1.jpg --quality 95 --metadata - --metadata-format json
+Mean brightness 175.49524786714377 within tolerance 5.0% of target 170.0 -> reusing image
+Capture complete. Final exposure (us): 1257
+2025-12-05-11-30-01 iter1 exposure_us=1257 mean=177.71723179902892 returncode=0
+2025-12-05-11-30-15 final reuse exposure_us=1257 mean=177.71723179902892
+Iteration 1: running shutter 1257us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 1257 --nopreview 1 -t 5001ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-05-11-30-01_iter1.jpg --quality 95 --metadata - --metadata-format json
+Mean brightness 177.71723179902892 within tolerance 5.0% of target 170.0 -> reusing image
+Capture complete. Final exposure (us): 1257
+2025-12-05-12-00-01 iter1 exposure_us=1257 mean=177.7009189712709 returncode=0
+2025-12-05-12-00-13 final reuse exposure_us=1257 mean=177.7009189712709
+Iteration 1: running shutter 1257us -> rpicam-still --camera 0 --width 9248 --height 6944 --shutter 1257 --nopreview 1 -t 5001ms -o /media/pi/USB DISK/winter_images/rpicam_2025-12-05-12-00-01_iter1.jpg --quality 95 --metadata - --metadata-format json
+Mean brightness 177.7009189712709 within tolerance 5.0% of target 170.0 -> reusing image
+Capture complete. Final exposure (us): 1257

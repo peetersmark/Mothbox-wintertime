@@ -1,0 +1,79 @@
+#!/usr/bin/env python3
+"""data-capture - Manual capture script for testing adaptive GammaTransitionError
+
+This script runs the same capture job that cron runs every 30 minutes,
+allowing manual execution for data collection and testing.
+
+It uses flock to prevent multiple concurrent captures, same as the cron job.
+
+Usage:
+  python3 data-capture                    # Run the capture job
+  python3 data-capture --no-lock          # Run without flock protection (for testing)
+  python3 data-capture --keep-intermediates  # Keep intermediate capture files
+
+Output is logged to: /home/pi/Desktop/Mothbox/winter_scripts/rpicam-take.log
+Images saved to: /media/pi/USB DISK/winter_images
+
+Cron equivalent:
+  */30 * * * * /usr/bin/flock -n /tmp/rpicam-take.lock /usr/bin/python3 /home/pi/Desktop/Mothbox/winter_scripts/rpicam-take.py --out-dir "/media/pi/USB DISK/winter_images" >> /home/pi/Desktop/Mothbox/winter_scripts/rpicam-take.log 2>&1
+"""
+
+import subprocess
+import sys
+import argparse
+import os
+from pathlib import Path
+
+def main():
+    parser = argparse.ArgumentParser(
+        description='Manual data capture using adaptive GammaTransitionError'
+    )
+    parser.add_argument(
+        '--no-lock',
+        action='store_true',
+        help='Run without flock protection (skip job locking)'
+    )
+    parser.add_argument(
+        '--keep-intermediates',
+        action='store_true',
+        help='Keep intermediate capture files (passed to rpicam-take.py)'
+    )
+    
+    args = parser.parse_args()
+    
+    # Build the command as it runs in cron
+    cmd = [
+        '/usr/bin/python3',
+        '/home/pi/Desktop/Mothbox/winter_scripts/rpicam-take.py',
+        '--out-dir', '/media/pi/USB DISK/winter_images_data'
+    ]
+    
+    # Add optional flags
+    if args.keep_intermediates:
+        cmd.append('--keep-intermediates')
+    
+    # Add flock if not skipped
+    if not args.no_lock:
+        cmd = ['/usr/bin/flock', '-n', '/tmp/rpicam-take.lock'] + cmd
+    
+    # Log file for output
+    log_file = '/media/pi/USB DISK/winter_images_data/rpicam-take-data.log'
+    
+    print(f"Executing: {' '.join(cmd)}")
+    print(f"Logging to: {log_file}")
+    print()
+    
+    # Run the capture, appending to log file
+    try:
+        with open(log_file, 'a') as log:
+            result = subprocess.run(cmd, stdout=log, stderr=subprocess.STDOUT, check=False)
+        sys.exit(result.returncode)
+    except FileNotFoundError as e:
+        print(f"Error: {e}")
+        sys.exit(1)
+    except KeyboardInterrupt:
+        print("\nCapture interrupted by user")
+        sys.exit(130)
+
+if __name__ == '__main__':
+    main()

@@ -1,0 +1,127 @@
+Bug List - rpicam-take.py v1.9 (2025-12-05)
+Date: 2026-01-20
+=================================================
+
+BUG #1: MaxExposure early-stop uses stale brightness value
+----------------------------------------------------------
+Location: rpicam-take.py lines 397-401
+Event: 2026-01-07-18-00-01 capture
+
+Description:
+The MaxExposure early-stop check breaks the loop BEFORE taking a photo at MaxExposure,
+using the brightness from the previous (lower) exposure to decide whether to stop.
+
+Code:
+    if current_exposure >= max_exposure and mean_b < target_mean:
+        print('Reached MaxExposure without achieving target brightness; stopping loop early')
+        final_exposure = current_exposure
+        break
+
+Actual behavior:
+- Iter2 at 17.67s gets mean=68.82 (dark)
+- Loop calculates 266s → capped to MaxExposure 240s
+- Sets current_exposure=240s
+- Checks: 240s >= max AND 68.82 < 170 → BREAKS (never takes 240s photo in loop)
+- Final capture at 240s produces mean=201.87 (overexposed, outside tolerance)
+
+Issue:
+The check uses mean_b (68.82 from 17.67s exposure) instead of testing the actual
+result at MaxExposure (which would have been 201.87).
+
+Expected behavior:
+Should either:
+a) Take one more iteration at MaxExposure to measure actual brightness before stopping, OR
+b) Remove the early-stop check entirely and let the loop exhaust normally
+
+Impact:
+System stops with "without achieving target brightness" message but final image
+is actually 32 brightness units ABOVE target (outside ±5% tolerance).
+
+
+=================================================
+
+BUG #2: MaxExposure early-stop doesn't set reuse flag, causes redundant final capture
+--------------------------------------------------------------------------------------
+Location: rpicam-take.py lines 397-401
+Event: 2026-01-07-18-30-01 capture
+
+Description:
+When the MaxExposure early-stop triggers, it breaks the loop without setting the
+reuse_final flag. This causes the system to take an additional "final" capture at
+the exact same exposure settings, wasting time and producing nearly identical results.
+
+Code (problematic early-stop):
+    if current_exposure >= max_exposure and mean_b < target_mean:
+        print('Reached MaxExposure without achieving target brightness; stopping loop early')
+        final_exposure = current_exposure
+        break
+    # Missing: reuse_final = True and related variables
+
+Actual behavior:
+- Iter1 at 240s gets mean=155.37 (14.63 below target, outside tolerance)
+- Loop calculates 306s → capped to MaxExposure 240s
+- MaxExposure early-stop triggers → breaks loop
+- reuse_final remains False (was never set)
+- System takes ANOTHER 240s capture as "final" → mean=157.09 (still outside tolerance)
+- Total: TWO identical 240s captures (iter1 + final), ~8 minutes wasted per capture
+
+Issue:
+The early-stop code (lines 397-401) breaks without setting reuse_final=True and
+related variables (reused_file, reused_metadata, reused_mean, etc). The system
+then falls through to the "else" branch (line 461) which takes a redundant final
+capture.
+
+Comparison to working reuse logic (lines 314-323):
+When within tolerance, the code correctly sets:
+    reuse_final = True
+    reused_file = tmp_name
+    reused_metadata = metadata
+    reused_returncode = res.get('returncode')
+    reused_stderr = res.get('stderr')
+    reused_mean = mean_b
+    reuse_iteration_stage = f'iter{i}'
+    break
+
+Expected behavior:
+The MaxExposure early-stop should reuse the iter1 image at 240s (mean=155.37) as
+the final result, even though it's outside tolerance. Taking another 240s capture
+won't improve the result since we're already at the exposure limit.
+
+Impact:
+- Doubles capture time when hitting MaxExposure (~4 minutes → ~8 minutes per event)
+- Produces nearly identical duplicate images (155.37 vs 157.09 mean, both outside tolerance)
+- Wastes battery/power on redundant captures during nighttime operation
+- Log shows duplicate entries for same exposure settings
+
+Relation to Bug #1:
+Both bugs stem from the same MaxExposure early-stop code block (lines 397-401).
+Bug #1 is about using stale brightness data; Bug #2 is about missing reuse logic.
+
+
+=================================================
+RESOLUTION - Version 2.0 (2026-01-20)
+=================================================
+
+Both Bug #1 and Bug #2 were addressed in Version 2.0 with a combined fix.
+
+Changes implemented:
+1. Added prev_was_at_max tracking variable (line 257) to detect consecutive MaxExposure iterations
+2. Replaced problematic early-stop logic (old lines 397-401) with new logic (lines 397-414) that:
+   - Allows loop to continue for one iteration at MaxExposure to get actual brightness measurement
+   - Only stops if ALREADY tested MaxExposure in previous iteration AND current iteration is still at MaxExposure AND still below target
+   - Sets reuse_final=True and all related variables when stopping at MaxExposure
+   - Tracks prev_was_at_max state to avoid redundant MaxExposure tests
+
+Expected outcomes:
+- Bug #1 resolved: System now uses actual brightness at MaxExposure instead of stale value from previous (lower) exposure
+- Bug #2 resolved: Reuse flag is set properly, eliminating redundant final captures at MaxExposure
+- Performance improvement: Long exposure events (~240s) should complete in ~4-5 minutes instead of ~12 minutes
+- Consistency: MaxExposure early-stop now behaves like MinExposure early-stop and tolerance checks (proper reuse logic)
+
+Testing plan:
+- Monitor production logs for events hitting MaxExposure
+- Verify no duplicate final captures occur
+- Verify final brightness values are accurate (from actual MaxExposure iteration, not predicted)
+- Confirm runtime improvements (~50% faster for MaxExposure events)
+
+Status: Deployed to production on 2026-01-20, awaiting field validation.

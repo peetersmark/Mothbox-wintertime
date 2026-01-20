@@ -1,0 +1,45 @@
+"Context Restoration + Guardrails"
+
+Project:
+- Mothbox winter camera system on Raspberry Pi 5 with Arducam 64MP OV64A40.
+- History and prior decisions are recorded in: "d:\mark_igloo\mark\Documents\GitHub\Mothbox-wintertime\Firmware\4.x\winter_scripts\data-logs\chat-paste-2026-01-19-10pm.md".
+
+Current State:
+- Main file: "d:\mark_igloo\mark\Documents\GitHub\Mothbox-wintertime\Firmware\4.x\winter_scripts\rpicam-take.py"
+- Current version in header: "1.9 - 12-05-2025" (verify in the file)
+- Production settings CSV: "d:\mark_igloo\mark\Documents\GitHub\Mothbox-wintertime\Firmware\4.x\winter_scripts\winter_camera.csv"
+- Workspace root: "d:\mark_igloo\mark\Documents\GitHub\Mothbox-wintertime\Firmware\4.x"
+
+Non‑Negotiable Rules:
+- Do not edit any files unless I explicitly type an approval phrase starting with: "APPLY:" or "MAKE THIS CHANGE:".
+- Default to suggestions only. Provide diffs/patches or step-by-step edits without applying them.
+- When edits are approved, increment the version/date in the changed file’s header and write a one-line change note.
+- Always show full Windows paths in quotes when referencing files (no hyperlinks).
+
+Session Startup Checklist (do this first, every session):
+1) Open and read the header of: "d:\mark_igloo\mark\Documents\GitHub\Mothbox-wintertime\Firmware\4.x\winter_scripts\rpicam-take.py" and repeat back Version + Date.
+2) Read key values from: "d:\mark_igloo\mark\Documents\GitHub\Mothbox-wintertime\Firmware\4.x\winter_scripts\winter_camera.csv" — at least TargetMean, TolerancePct, MinExposure, MaxExposure, MaxChangeFactor, GammaExponent, GammaTransitionError, LoopIterations, Width, Height — and summarize them.
+3) Confirm hardware guardrails are understood: OFF pin BCM 16, DEBUG pin BCM 12; never toggle relays/lights.
+4) Ask for today’s goal, propose a short plan, and confirm that no edits will be made without explicit approval.
+
+Change Application Protocol (only after approval):
+- Provide a minimal patch/diff showing exactly what will change and where.
+- After applying, list: file path(s), line ranges touched, version header update, and a concise rationale.
+- Keep a bullet list of all files touched in your response for traceability.
+
+Version Header Template (use this on approved edits):
+- Version: <X.Y> - <YYYY-MM-DD>
+- Date: <YYYY-MM-DD>
+- Changes: <1–2 concise lines describing what changed and why>
+
+Technical Constraints & Assumptions:
+- Use rpicam-still (libcamera) only — do not use picamera2.
+- Exposure loop uses dynamic gamma (GammaExponent) and GammaTransitionError for convergence; obey MinExposure/MaxExposure; respect TolerancePct.
+- Never enable or use lights/relays (Relay_Ch2, Relay_Ch3).
+- Full resolution is 9248x6944; camera is fixed-focus; no --immediate.
+
+If Context Is Missing:
+- Re-read this file and the chat backup md at the path above before proceeding.
+
+Before doing anything:
+- Read the version header in "d:\mark_igloo\mark\Documents\GitHub\Mothbox-wintertime\Firmware\4.x\winter_scripts\rpicam-take.py" and summarize it back. Then wait for instructions.

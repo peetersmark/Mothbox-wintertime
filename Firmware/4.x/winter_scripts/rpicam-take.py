@@ -21,10 +21,10 @@ Usage (examples):
 
 Note: exposure times in `winter_camera.csv` are stored in microseconds.
 
-Version: 1.9 - 12-05-2025
-Date: 2025-12-05
-Changes: Increased GammaExponent from 2.2 to 3.0 for stronger bright-side correction (targets 0.7-0.8 factors).
-         Saturated fast-drop and aggressive bright thresholds (0.05, threshold=10) remain active.
+Version: 2.0 - 2026-01-20
+Date: 2026-01-20
+Changes: Fixed MaxExposure early-stop logic (Bug #1, #2): now tests MaxExposure once to get accurate brightness,
+         then reuses that iteration if still below target. Eliminates redundant final captures and stale brightness checks.
 """
 import argparse
 import csv
@@ -254,6 +254,7 @@ def main():
     reused_stderr = ''
     reused_mean = None
     reuse_iteration_stage = ''
+    prev_was_at_max = False
     for i in range(1, loop_iterations + 1):
         ts = time.strftime('%Y-%m-%d-%H-%M-%S')
         tmp_name = Path(args.out_dir) / f"rpicam_{ts}_iter{i}.jpg"
@@ -394,11 +395,22 @@ def main():
             current_exposure = new_exposure
             last_error = error
 
-            # If we've hit max exposure and still below target, stop looping
-            if current_exposure >= max_exposure and mean_b < target_mean:
-                print('Reached MaxExposure without achieving target brightness; stopping loop early')
+            # Check if stuck at MaxExposure: if previous iteration was at max AND current is still at max AND still below target
+            # then reuse the current iteration's image (can't improve further)
+            if prev_was_at_max and current_exposure >= max_exposure and mean_b < target_mean:
+                print('Already tested MaxExposure; still below target brightness -> reusing last iteration')
                 final_exposure = current_exposure
+                reuse_final = True
+                reused_file = tmp_name
+                reused_metadata = metadata
+                reused_returncode = res.get('returncode')
+                reused_stderr = res.get('stderr')
+                reused_mean = mean_b
+                reuse_iteration_stage = f'iter{i}'
                 break
+            
+            # Track whether this iteration is at MaxExposure for next iteration's check
+            prev_was_at_max = (current_exposure >= max_exposure)
 
         # optionally remove intermediate
         if not args.keep_intermediates and Path(tmp_name).is_file():

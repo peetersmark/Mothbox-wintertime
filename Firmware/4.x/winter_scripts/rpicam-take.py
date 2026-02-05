@@ -21,10 +21,9 @@ Usage (examples):
 
 Note: exposure times in `winter_camera.csv` are stored in microseconds.
 
-Version: 2.0 - 2026-01-20
-Date: 2026-01-20
-Changes: Fixed MaxExposure early-stop logic (Bug #1, #2): now tests MaxExposure once to get accurate brightness,
-         then reuses that iteration if still below target. Eliminates redundant final captures and stale brightness checks.
+Version: 2.5 - 2026-01-29
+Date: 2026-01-29
+Changes: Reverted AwbGains to auto. Fixed 5000K provided insufficient color balance.
 """
 import argparse
 import csv
@@ -193,6 +192,21 @@ def main():
         return
 
     settings = read_camera_csv(args.camera_csv)
+    expected_keys = [
+        'ExposureTime', 'AnalogueGain', 'Gain', 'AwbGains', 'Width', 'Height', 'TargetMean', 'LoopIterations',
+        'RetryCount', 'MinExposure', 'MaxExposure', 'TolerancePct', 'MaxChangeFactor', 'GammaExponent',
+        'GammaTransitionError_Dark', 'GammaTransitionError_Normal', 'GammaTransitionError_Bright',
+        'GammaDarkThreshold', 'GammaBrightThreshold'
+    ]
+    missing_keys = [k for k in expected_keys if settings.get(k) is None]
+    if missing_keys:
+        msg = f"Using defaults for missing CSV keys: {', '.join(sorted(missing_keys))}"
+        print(msg)
+        try:
+            with open(LOG_PATH, 'a', encoding='utf-8') as lf:
+                lf.write(msg + "\n")
+        except Exception:
+            pass
     # defaults and parsing
     exposure_us = int(settings.get('ExposureTime') or settings.get('ExposureTime', 1000) or 1000)
     analoggain = float(settings.get('AnalogueGain')) if settings.get('AnalogueGain') else None
@@ -200,6 +214,7 @@ def main():
     awbgains_raw = settings.get('AwbGains') if settings.get('AwbGains') else None
     # Validate awbgains: require non-empty and contains a comma, both components non-zero numeric
     awbgains = None
+    invalid_awbgains = False
     if awbgains_raw:
         parts = [p.strip() for p in awbgains_raw.split(',')]
         if len(parts) == 2:
@@ -208,25 +223,37 @@ def main():
                 b_val = float(parts[1])
                 if r_val > 0 and b_val > 0:
                     awbgains = f"{r_val},{b_val}"
+                else:
+                    invalid_awbgains = True
             except ValueError:
                 awbgains = None
+                invalid_awbgains = True
+        else:
+            invalid_awbgains = True
+    if invalid_awbgains:
+        warn = f"Ignoring invalid AwbGains in CSV: '{awbgains_raw}'"
+        print(warn)
+        try:
+            with open(LOG_PATH, 'a', encoding='utf-8') as lf:
+                lf.write(warn + "\n")
+        except Exception:
+            pass
     width = int(settings.get('Width') or 9248)
     height = int(settings.get('Height') or 6944)
-    target_mean = float(settings.get('TargetMean') or 100)
+    target_mean = float(settings.get('TargetMean') or 170)
     loop_iterations = int(settings.get('LoopIterations') or 5)
     retry_count = int(settings.get('RetryCount') or 2)
     min_exposure = int(settings.get('MinExposure') or 100)
     max_exposure = int(settings.get('MaxExposure') or 240000000)
     tolerance_pct = float(settings.get('TolerancePct') or 5.0)
-    max_change = float(settings.get('MaxChangeFactor') or 4.0)
-    gamma = float(settings.get('GammaExponent') or 2.2)
-    gamma_transition_default = float(settings.get('GammaTransitionError') or 0.10)
+    max_change = float(settings.get('MaxChangeFactor') or 20.0)
+    gamma = float(settings.get('GammaExponent') or 3.0)
     gamma_transition_dark = float(settings.get('GammaTransitionError_Dark') or 0.08)
     gamma_transition_normal = float(settings.get('GammaTransitionError_Normal') or 0.10)
-    gamma_transition_bright = float(settings.get('GammaTransitionError_Bright') or 0.06)
+    gamma_transition_bright = float(settings.get('GammaTransitionError_Bright') or 0.05)
     gamma_dark_threshold = float(settings.get('GammaDarkThreshold') or 20)
-    gamma_bright_threshold = float(settings.get('GammaBrightThreshold') or 15)
-    gamma_transition = gamma_transition_default  # Start with default
+    gamma_bright_threshold = float(settings.get('GammaBrightThreshold') or 10)
+    gamma_transition = gamma_transition_normal  # Start with normal band
 
     # allow CLI override for width/height
     if args.width:

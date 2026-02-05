@@ -2,7 +2,7 @@
 
 Project:
 - Mothbox winter camera system on Raspberry Pi 5 with Arducam 64MP OV64A40.
-- History and prior decisions are recorded in: "d:\mark_igloo\mark\Documents\GitHub\Mothbox-wintertime\Firmware\4.x\winter_scripts\data-logs\chat-paste-2026-01-19-10pm.md".
+- History and prior decisions are recorded in the folder : "d:\mark_igloo\mark\Documents\GitHub\Mothbox-wintertime\Firmware\4.x\winter_scripts\chat_history_files".
 
 Current State:
 - Main file: "d:\mark_igloo\mark\Documents\GitHub\Mothbox-wintertime\Firmware\4.x\winter_scripts\rpicam-take.py"
@@ -43,3 +43,10 @@ If Context Is Missing:
 
 Before doing anything:
 - Read the version header in "d:\mark_igloo\mark\Documents\GitHub\Mothbox-wintertime\Firmware\4.x\winter_scripts\rpicam-take.py" and summarize it back. Then wait for instructions.
+
+Note to user only:
+- paste this at the end of every interaction:
+(analysis only - no edits without explicit approval)
+- paste this at the end of every interaction:
+APPLY: [description of changes]
+(Python ASCII-only: no special characters in source code - use x not ×, - not –, " not ")

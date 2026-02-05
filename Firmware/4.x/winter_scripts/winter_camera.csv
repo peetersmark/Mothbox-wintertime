@@ -13,7 +13,6 @@ MaxExposure,240000000,Maximum exposure in microseconds
 TolerancePct,5,Stop loop when within this percent of target mean
 MaxChangeFactor,20,Maximum multiplicative change per iteration
 GammaExponent,3.0,Exponent for gamma-corrected exposure adjustment
-GammaTransitionError,0.10,Normalized error threshold where gamma tapers from max to 1.0 (fallback/default)
 GammaTransitionError_Dark,0.08,GammaTransitionError when brightness below (TargetMean - GammaDarkThreshold)
 GammaTransitionError_Normal,0.10,GammaTransitionError when brightness near target
 GammaTransitionError_Bright,0.05,GammaTransitionError when brightness above (TargetMean + GammaBrightThreshold)

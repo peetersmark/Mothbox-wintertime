@@ -1,4 +1,5 @@
-
+/Firmware/4.x/winter_scripts/chat_history_files/
+/Firmware/4.x/winter_scripts/data-logs/
 *.pyc
 *.pyc
 AI/__pycache__/Mothbot_ConvertDatasettoCSV.cpython-311.pyc
